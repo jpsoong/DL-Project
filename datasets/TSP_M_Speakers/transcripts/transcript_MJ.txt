@@ -1,0 +1,719 @@
+
+--Information records--
+title: Male speaker, MJ55_01 48k
+creation_date: 1997-04-15 16:51:59 UTC
+database: TSP Speech Files v2
+ID: TSP MJ55_01 48k
+speaker: MJ Male
+text: "Those last words were a strong statement."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ55_02 48k
+creation_date: 1997-04-15 16:52:00 UTC
+database: TSP Speech Files v2
+ID: TSP MJ55_02 48k
+speaker: MJ Male
+text: "He wrote his name boldly at the top of the sheet."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ55_03 48k
+creation_date: 1997-04-15 16:52:01 UTC
+database: TSP Speech Files v2
+ID: TSP MJ55_03 48k
+speaker: MJ Male
+text: "Dill pickles are sour but taste fine."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ55_04 48k
+creation_date: 1997-04-15 16:52:02 UTC
+database: TSP Speech Files v2
+ID: TSP MJ55_04 48k
+speaker: MJ Male
+text: "Down that road is the way to the grain farmer."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ55_05 48k
+creation_date: 1997-04-15 16:52:03 UTC
+database: TSP Speech Files v2
+ID: TSP MJ55_05 48k
+speaker: MJ Male
+text: "Either mud or dust are found at all times."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ55_06 48k
+creation_date: 1997-04-15 16:52:05 UTC
+database: TSP Speech Files v2
+ID: TSP MJ55_06 48k
+speaker: MJ Male
+text: "The best method is to fix it in place with clips."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ55_07 48k
+creation_date: 1997-04-15 16:52:06 UTC
+database: TSP Speech Files v2
+ID: TSP MJ55_07 48k
+speaker: MJ Male
+text: "If you mumble your speech will be lost."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ55_08 48k
+creation_date: 1997-04-15 16:52:07 UTC
+database: TSP Speech Files v2
+ID: TSP MJ55_08 48k
+speaker: MJ Male
+text: "At night the alarm roused him from a deep sleep."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ55_09 48k
+creation_date: 1997-04-15 16:52:09 UTC
+database: TSP Speech Files v2
+ID: TSP MJ55_09 48k
+speaker: MJ Male
+text: "Read just what the meter says."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ55_10 48k
+creation_date: 1997-04-15 16:52:10 UTC
+database: TSP Speech Files v2
+ID: TSP MJ55_10 48k
+speaker: MJ Male
+text: "Fill your pack with bright trinkets for the poor."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ56_01 48k
+creation_date: 1997-04-15 16:52:15 UTC
+database: TSP Speech Files v2
+ID: TSP MJ56_01 48k
+speaker: MJ Male
+text: "The small red neon lamp went out."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ56_02 48k
+creation_date: 1997-04-15 16:52:16 UTC
+database: TSP Speech Files v2
+ID: TSP MJ56_02 48k
+speaker: MJ Male
+text: "Clams are small, round, soft, and tasty."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ56_03 48k
+creation_date: 1997-04-15 16:52:17 UTC
+database: TSP Speech Files v2
+ID: TSP MJ56_03 48k
+speaker: MJ Male
+text: "The fan whirled its round blades softly."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ56_04 48k
+creation_date: 1997-04-15 16:52:18 UTC
+database: TSP Speech Files v2
+ID: TSP MJ56_04 48k
+speaker: MJ Male
+text: "The line where the edges join was clean."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ56_05 48k
+creation_date: 1997-04-15 16:52:19 UTC
+database: TSP Speech Files v2
+ID: TSP MJ56_05 48k
+speaker: MJ Male
+text: "Breathe deep and smell the piney air."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ56_06 48k
+creation_date: 1997-04-15 16:52:20 UTC
+database: TSP Speech Files v2
+ID: TSP MJ56_06 48k
+speaker: MJ Male
+text: "It matters not if he reads these words or those."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ56_07 48k
+creation_date: 1997-04-15 16:52:21 UTC
+database: TSP Speech Files v2
+ID: TSP MJ56_07 48k
+speaker: MJ Male
+text: "A brown leather bag hung from its strap."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ56_08 48k
+creation_date: 1997-04-15 16:52:22 UTC
+database: TSP Speech Files v2
+ID: TSP MJ56_08 48k
+speaker: MJ Male
+text: "A toad and a frog are hard to tell apart."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ56_09 48k
+creation_date: 1997-04-15 16:52:23 UTC
+database: TSP Speech Files v2
+ID: TSP MJ56_09 48k
+speaker: MJ Male
+text: "A white silk jacket goes with any shoes."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ56_10 48k
+creation_date: 1997-04-15 16:52:24 UTC
+database: TSP Speech Files v2
+ID: TSP MJ56_10 48k
+speaker: MJ Male
+text: "A break in the dam almost caused a flood."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ57_01 48k
+creation_date: 1997-04-15 16:52:28 UTC
+database: TSP Speech Files v2
+ID: TSP MJ57_01 48k
+speaker: MJ Male
+text: "Paint the sockets in the wall dull green."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ57_02 48k
+creation_date: 1997-04-15 16:52:28 UTC
+database: TSP Speech Files v2
+ID: TSP MJ57_02 48k
+speaker: MJ Male
+text: "The child crawled into the dense grass."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ57_03 48k
+creation_date: 1997-04-15 16:52:29 UTC
+database: TSP Speech Files v2
+ID: TSP MJ57_03 48k
+speaker: MJ Male
+text: "Bribes fail where honest men work."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ57_04 48k
+creation_date: 1997-04-15 16:52:30 UTC
+database: TSP Speech Files v2
+ID: TSP MJ57_04 48k
+speaker: MJ Male
+text: "Trample the spark, else the flames will spread."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ57_05 48k
+creation_date: 1997-04-15 16:52:31 UTC
+database: TSP Speech Files v2
+ID: TSP MJ57_05 48k
+speaker: MJ Male
+text: "The hilt of the sword was carved with fine designs."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ57_06 48k
+creation_date: 1997-04-15 16:52:32 UTC
+database: TSP Speech Files v2
+ID: TSP MJ57_06 48k
+speaker: MJ Male
+text: "A round hole was drilled through the thin board."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ57_07 48k
+creation_date: 1997-04-15 16:52:33 UTC
+database: TSP Speech Files v2
+ID: TSP MJ57_07 48k
+speaker: MJ Male
+text: "Footprints showed the path he took up the beach."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ57_08 48k
+creation_date: 1997-04-15 16:52:35 UTC
+database: TSP Speech Files v2
+ID: TSP MJ57_08 48k
+speaker: MJ Male
+text: "She was waiting at my front lawn."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ57_09 48k
+creation_date: 1997-04-15 16:52:37 UTC
+database: TSP Speech Files v2
+ID: TSP MJ57_09 48k
+speaker: MJ Male
+text: "A vent near the edge brought in fresh air."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ57_10 48k
+creation_date: 1997-04-15 16:52:39 UTC
+database: TSP Speech Files v2
+ID: TSP MJ57_10 48k
+speaker: MJ Male
+text: "Prod the old mule with a crooked stick." "
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ58_01 48k
+creation_date: 1997-04-15 16:52:43 UTC
+database: TSP Speech Files v2
+ID: TSP MJ58_01 48k
+speaker: MJ Male
+text: "It is a band of steel three inches wide."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ58_02 48k
+creation_date: 1997-04-15 16:52:44 UTC
+database: TSP Speech Files v2
+ID: TSP MJ58_02 48k
+speaker: MJ Male
+text: "The pipe ran almost the length of the ditch."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ58_03 48k
+creation_date: 1997-04-15 16:52:45 UTC
+database: TSP Speech Files v2
+ID: TSP MJ58_03 48k
+speaker: MJ Male
+text: "It was hidden from sight by a mass of leaves and shrubs."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ58_04 48k
+creation_date: 1997-04-15 16:52:47 UTC
+database: TSP Speech Files v2
+ID: TSP MJ58_04 48k
+speaker: MJ Male
+text: "The weight of the package was seen on the high scale."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ58_05 48k
+creation_date: 1997-04-15 16:52:47 UTC
+database: TSP Speech Files v2
+ID: TSP MJ58_05 48k
+speaker: MJ Male
+text: "Wake and rise, and step into the green outdoors."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ58_06 48k
+creation_date: 1997-04-15 16:52:49 UTC
+database: TSP Speech Files v2
+ID: TSP MJ58_06 48k
+speaker: MJ Male
+text: "The green light in the brown box flickered."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ58_07 48k
+creation_date: 1997-04-15 16:52:49 UTC
+database: TSP Speech Files v2
+ID: TSP MJ58_07 48k
+speaker: MJ Male
+text: "The brass tube circled the high wall."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ58_08 48k
+creation_date: 1997-04-15 16:52:51 UTC
+database: TSP Speech Files v2
+ID: TSP MJ58_08 48k
+speaker: MJ Male
+text: "The lobes of her ears were pierced to hold rings."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ58_09 48k
+creation_date: 1997-04-15 16:52:52 UTC
+database: TSP Speech Files v2
+ID: TSP MJ58_09 48k
+speaker: MJ Male
+text: "Hold the hammer near the end to drive the nail."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ58_10 48k
+creation_date: 1997-04-15 16:52:54 UTC
+database: TSP Speech Files v2
+ID: TSP MJ58_10 48k
+speaker: MJ Male
+text: "Next Sunday is the twelfth of the month."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ59_01 48k
+creation_date: 1997-04-15 16:52:59 UTC
+database: TSP Speech Files v2
+ID: TSP MJ59_01 48k
+speaker: MJ Male
+text: "Every word and phrase he speaks is true."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ59_02 48k
+creation_date: 1997-04-15 16:52:59 UTC
+database: TSP Speech Files v2
+ID: TSP MJ59_02 48k
+speaker: MJ Male
+text: "He put his last cartridge into the gun and fired."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ59_03 48k
+creation_date: 1997-04-15 16:53:00 UTC
+database: TSP Speech Files v2
+ID: TSP MJ59_03 48k
+speaker: MJ Male
+text: "They took their kids from the public school."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ59_04 48k
+creation_date: 1997-04-15 16:53:01 UTC
+database: TSP Speech Files v2
+ID: TSP MJ59_04 48k
+speaker: MJ Male
+text: "Drive the screw straight into the wood."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ59_05 48k
+creation_date: 1997-04-15 16:53:03 UTC
+database: TSP Speech Files v2
+ID: TSP MJ59_05 48k
+speaker: MJ Male
+text: "Keep the hatch tight and the watch constant."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ59_06 48k
+creation_date: 1997-04-15 16:53:04 UTC
+database: TSP Speech Files v2
+ID: TSP MJ59_06 48k
+speaker: MJ Male
+text: "Sever the twine with a quick snip of the knife."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ59_07 48k
+creation_date: 1997-04-15 16:53:05 UTC
+database: TSP Speech Files v2
+ID: TSP MJ59_07 48k
+speaker: MJ Male
+text: "Paper will dry out when wet."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ59_08 48k
+creation_date: 1997-04-15 16:53:06 UTC
+database: TSP Speech Files v2
+ID: TSP MJ59_08 48k
+speaker: MJ Male
+text: "Slide the catch back and open the desk."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ59_09 48k
+creation_date: 1997-04-15 16:53:07 UTC
+database: TSP Speech Files v2
+ID: TSP MJ59_09 48k
+speaker: MJ Male
+text: "Help the weak to preserve their strength."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ59_10 48k
+creation_date: 1997-04-15 16:53:07 UTC
+database: TSP Speech Files v2
+ID: TSP MJ59_10 48k
+speaker: MJ Male
+text: "A sullen smile gets few friends."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ60_01 48k
+creation_date: 1997-04-15 16:53:11 UTC
+database: TSP Speech Files v2
+ID: TSP MJ60_01 48k
+speaker: MJ Male
+text: "Stop whistling and watch the boys march."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ60_02 48k
+creation_date: 1997-04-15 16:53:13 UTC
+database: TSP Speech Files v2
+ID: TSP MJ60_02 48k
+speaker: MJ Male
+text: "Jerk the cord, and out tumbles the gold."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ60_03 48k
+creation_date: 1997-04-15 16:53:14 UTC
+database: TSP Speech Files v2
+ID: TSP MJ60_03 48k
+speaker: MJ Male
+text: "Slide the tray across the glass top."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ60_04 48k
+creation_date: 1997-04-15 16:53:14 UTC
+database: TSP Speech Files v2
+ID: TSP MJ60_04 48k
+speaker: MJ Male
+text: "The cloud moved in a stately way and was gone."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ60_05 48k
+creation_date: 1997-04-15 16:53:16 UTC
+database: TSP Speech Files v2
+ID: TSP MJ60_05 48k
+speaker: MJ Male
+text: "Light maple makes for a swell room."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ60_06 48k
+creation_date: 1997-04-15 16:53:17 UTC
+database: TSP Speech Files v2
+ID: TSP MJ60_06 48k
+speaker: MJ Male
+text: "Set the piece here and say nothing."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ60_07 48k
+creation_date: 1997-04-15 16:53:18 UTC
+database: TSP Speech Files v2
+ID: TSP MJ60_07 48k
+speaker: MJ Male
+text: "Dull stories make her laugh."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ60_08 48k
+creation_date: 1997-04-15 16:53:19 UTC
+database: TSP Speech Files v2
+ID: TSP MJ60_08 48k
+speaker: MJ Male
+text: "A stiff cord will do to fasten your shoe."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ60_09 48k
+creation_date: 1997-04-15 16:53:21 UTC
+database: TSP Speech Files v2
+ID: TSP MJ60_09 48k
+speaker: MJ Male
+text: "Get the trust fund to the bank early."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MJ60_10 48k
+creation_date: 1997-04-15 16:53:23 UTC
+database: TSP Speech Files v2
+ID: TSP MJ60_10 48k
+speaker: MJ Male
+text: "Choose between the high road and the low."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder

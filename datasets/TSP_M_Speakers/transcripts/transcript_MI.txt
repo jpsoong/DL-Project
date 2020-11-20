@@ -1,0 +1,719 @@
+
+--Information records--
+title: Male speaker, MI49_01 48k
+creation_date: 1997-04-15 16:26:40 UTC
+database: TSP Speech Files v2
+ID: TSP MI49_01 48k
+speaker: MI Male
+text: "The way to save money is not to spend much."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI49_02 48k
+creation_date: 1997-04-15 16:26:41 UTC
+database: TSP Speech Files v2
+ID: TSP MI49_02 48k
+speaker: MI Male
+text: "Shut the hatch before the waves push it in."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI49_03 48k
+creation_date: 1997-04-15 16:26:43 UTC
+database: TSP Speech Files v2
+ID: TSP MI49_03 48k
+speaker: MI Male
+text: "The odor of spring makes young hearts jump."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI49_04 48k
+creation_date: 1997-04-15 16:26:44 UTC
+database: TSP Speech Files v2
+ID: TSP MI49_04 48k
+speaker: MI Male
+text: "Crack the walnut with your sharp side teeth."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI49_05 48k
+creation_date: 1997-04-15 16:26:45 UTC
+database: TSP Speech Files v2
+ID: TSP MI49_05 48k
+speaker: MI Male
+text: "He offered proof in the form of a large chart."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI49_06 48k
+creation_date: 1997-04-15 16:26:46 UTC
+database: TSP Speech Files v2
+ID: TSP MI49_06 48k
+speaker: MI Male
+text: "Send the stuff in a thick paper bag."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI49_07 48k
+creation_date: 1997-04-15 16:26:47 UTC
+database: TSP Speech Files v2
+ID: TSP MI49_07 48k
+speaker: MI Male
+text: "A quart if milk is water for the most part."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI49_08 48k
+creation_date: 1997-04-15 16:26:48 UTC
+database: TSP Speech Files v2
+ID: TSP MI49_08 48k
+speaker: MI Male
+text: "They told wild tales to frighten him."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI49_09 48k
+creation_date: 1997-04-15 16:26:49 UTC
+database: TSP Speech Files v2
+ID: TSP MI49_09 48k
+speaker: MI Male
+text: "The three story house was built of stone."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI49_10 48k
+creation_date: 1997-04-15 16:26:50 UTC
+database: TSP Speech Files v2
+ID: TSP MI49_10 48k
+speaker: MI Male
+text: "In the rear of the ground floor was a large passage."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI50_01 48k
+creation_date: 1997-04-15 16:27:00 UTC
+database: TSP Speech Files v2
+ID: TSP MI50_01 48k
+speaker: MI Male
+text: "A man in a blue sweater sat at the desk."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI50_02 48k
+creation_date: 1997-04-15 16:27:02 UTC
+database: TSP Speech Files v2
+ID: TSP MI50_02 48k
+speaker: MI Male
+text: "Oats are a food eaten by horse and man."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI50_03 48k
+creation_date: 1997-04-15 16:27:03 UTC
+database: TSP Speech Files v2
+ID: TSP MI50_03 48k
+speaker: MI Male
+text: "Their eyelids droop for want of sleep."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI50_04 48k
+creation_date: 1997-04-15 16:27:05 UTC
+database: TSP Speech Files v2
+ID: TSP MI50_04 48k
+speaker: MI Male
+text: "A sip of tea revives his tired friend."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI50_05 48k
+creation_date: 1997-04-15 16:27:06 UTC
+database: TSP Speech Files v2
+ID: TSP MI50_05 48k
+speaker: MI Male
+text: "There are many ways to do these things."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI50_06 48k
+creation_date: 1997-04-15 16:27:08 UTC
+database: TSP Speech Files v2
+ID: TSP MI50_06 48k
+speaker: MI Male
+text: "Tuck the sheet under the edge of the mat."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI50_07 48k
+creation_date: 1997-04-15 16:27:09 UTC
+database: TSP Speech Files v2
+ID: TSP MI50_07 48k
+speaker: MI Male
+text: "A force equal to that would move the earth."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI50_08 48k
+creation_date: 1997-04-15 16:27:10 UTC
+database: TSP Speech Files v2
+ID: TSP MI50_08 48k
+speaker: MI Male
+text: "We like to see clear weather."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI50_09 48k
+creation_date: 1997-04-15 16:27:11 UTC
+database: TSP Speech Files v2
+ID: TSP MI50_09 48k
+speaker: MI Male
+text: "The work of the tailor is seen on each side."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI50_10 48k
+creation_date: 1997-04-15 16:27:11 UTC
+database: TSP Speech Files v2
+ID: TSP MI50_10 48k
+speaker: MI Male
+text: "Take a chance and win a china doll."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI51_01 48k
+creation_date: 1997-04-15 16:27:15 UTC
+database: TSP Speech Files v2
+ID: TSP MI51_01 48k
+speaker: MI Male
+text: "Shake the dust from your shoes, stranger."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI51_02 48k
+creation_date: 1997-04-15 16:27:17 UTC
+database: TSP Speech Files v2
+ID: TSP MI51_02 48k
+speaker: MI Male
+text: "She was kind to sick old people."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI51_03 48k
+creation_date: 1997-04-15 16:27:18 UTC
+database: TSP Speech Files v2
+ID: TSP MI51_03 48k
+speaker: MI Male
+text: "The square wooden crate was packed to be shipped."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI51_04 48k
+creation_date: 1997-04-15 16:27:19 UTC
+database: TSP Speech Files v2
+ID: TSP MI51_04 48k
+speaker: MI Male
+text: "The dusty bench stood by the stone wall."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI51_05 48k
+creation_date: 1997-04-15 16:27:20 UTC
+database: TSP Speech Files v2
+ID: TSP MI51_05 48k
+speaker: MI Male
+text: "We dress to suit the weather of most days."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI51_06 48k
+creation_date: 1997-04-15 16:27:21 UTC
+database: TSP Speech Files v2
+ID: TSP MI51_06 48k
+speaker: MI Male
+text: "Smile when you say nasty words."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI51_07 48k
+creation_date: 1997-04-15 16:27:22 UTC
+database: TSP Speech Files v2
+ID: TSP MI51_07 48k
+speaker: MI Male
+text: "A bowl of rice is free with chicken stew."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI51_08 48k
+creation_date: 1997-04-15 16:27:23 UTC
+database: TSP Speech Files v2
+ID: TSP MI51_08 48k
+speaker: MI Male
+text: "The water in this well is a source of good health."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI51_09 48k
+creation_date: 1997-04-15 16:27:25 UTC
+database: TSP Speech Files v2
+ID: TSP MI51_09 48k
+speaker: MI Male
+text: "Take shelter in this tent, but keep still."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI51_10 48k
+creation_date: 1997-04-15 16:27:26 UTC
+database: TSP Speech Files v2
+ID: TSP MI51_10 48k
+speaker: MI Male
+text: "That guy is the writer of a few banned books."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI52_01 48k
+creation_date: 1997-04-15 16:27:29 UTC
+database: TSP Speech Files v2
+ID: TSP MI52_01 48k
+speaker: MI Male
+text: "The little tales they tell are false."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI52_02 48k
+creation_date: 1997-04-15 16:27:30 UTC
+database: TSP Speech Files v2
+ID: TSP MI52_02 48k
+speaker: MI Male
+text: "The door was barred, locked, and bolted as well."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI52_03 48k
+creation_date: 1997-04-15 16:27:31 UTC
+database: TSP Speech Files v2
+ID: TSP MI52_03 48k
+speaker: MI Male
+text: "Ripe pears are fit for a queen's table."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI52_04 48k
+creation_date: 1997-04-15 16:27:32 UTC
+database: TSP Speech Files v2
+ID: TSP MI52_04 48k
+speaker: MI Male
+text: "A big wet stain was on the round carpet."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI52_05 48k
+creation_date: 1997-04-15 16:27:33 UTC
+database: TSP Speech Files v2
+ID: TSP MI52_05 48k
+speaker: MI Male
+text: "The kite dipped and swayed, but stayed aloft."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI52_06 48k
+creation_date: 1997-04-15 16:27:34 UTC
+database: TSP Speech Files v2
+ID: TSP MI52_06 48k
+speaker: MI Male
+text: "The pleasant hours fly by much too soon."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI52_07 48k
+creation_date: 1997-04-15 16:27:35 UTC
+database: TSP Speech Files v2
+ID: TSP MI52_07 48k
+speaker: MI Male
+text: "The room was crowded with a wild mob."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI52_08 48k
+creation_date: 1997-04-15 16:27:36 UTC
+database: TSP Speech Files v2
+ID: TSP MI52_08 48k
+speaker: MI Male
+text: "This strong arm shall shield your honor."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI52_09 48k
+creation_date: 1997-04-15 16:27:38 UTC
+database: TSP Speech Files v2
+ID: TSP MI52_09 48k
+speaker: MI Male
+text: "She blushed when he gave her a white orchid."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI52_10 48k
+creation_date: 1997-04-15 16:27:39 UTC
+database: TSP Speech Files v2
+ID: TSP MI52_10 48k
+speaker: MI Male
+text: "The beetle droned in the hot June sun."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI53_01 48k
+creation_date: 1997-04-15 16:27:42 UTC
+database: TSP Speech Files v2
+ID: TSP MI53_01 48k
+speaker: MI Male
+text: "Press the pedal with your left foot."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI53_02 48k
+creation_date: 1997-04-15 16:27:44 UTC
+database: TSP Speech Files v2
+ID: TSP MI53_02 48k
+speaker: MI Male
+text: "Neat plans fail without luck."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI53_03 48k
+creation_date: 1997-04-15 16:27:45 UTC
+database: TSP Speech Files v2
+ID: TSP MI53_03 48k
+speaker: MI Male
+text: "The black trunk fell from the landing."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI53_04 48k
+creation_date: 1997-04-15 16:27:48 UTC
+database: TSP Speech Files v2
+ID: TSP MI53_04 48k
+speaker: MI Male
+text: "The bank pressed for payment of the debt."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI53_05 48k
+creation_date: 1997-04-15 16:27:49 UTC
+database: TSP Speech Files v2
+ID: TSP MI53_05 48k
+speaker: MI Male
+text: "The theft of the pearl pin was kept secret."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI53_06 48k
+creation_date: 1997-04-15 16:27:51 UTC
+database: TSP Speech Files v2
+ID: TSP MI53_06 48k
+speaker: MI Male
+text: "Shake hands with this friendly child."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI53_07 48k
+creation_date: 1997-04-15 16:27:52 UTC
+database: TSP Speech Files v2
+ID: TSP MI53_07 48k
+speaker: MI Male
+text: "The vast space stretched into the far distance."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI53_08 48k
+creation_date: 1997-04-15 16:27:53 UTC
+database: TSP Speech Files v2
+ID: TSP MI53_08 48k
+speaker: MI Male
+text: "A rich farm is rare in this sandy waste."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI53_09 48k
+creation_date: 1997-04-15 16:27:54 UTC
+database: TSP Speech Files v2
+ID: TSP MI53_09 48k
+speaker: MI Male
+text: "His wide grin earned many friends."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI53_10 48k
+creation_date: 1997-04-15 16:27:55 UTC
+database: TSP Speech Files v2
+ID: TSP MI53_10 48k
+speaker: MI Male
+text: "Flax makes a fine brand of paper."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI54_01 48k
+creation_date: 1997-04-15 16:27:58 UTC
+database: TSP Speech Files v2
+ID: TSP MI54_01 48k
+speaker: MI Male
+text: "Hurdle the pit with the aid of a long pole."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI54_02 48k
+creation_date: 1997-04-15 16:27:59 UTC
+database: TSP Speech Files v2
+ID: TSP MI54_02 48k
+speaker: MI Male
+text: "A strong bid may scare your partner stiff."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI54_03 48k
+creation_date: 1997-04-15 16:28:00 UTC
+database: TSP Speech Files v2
+ID: TSP MI54_03 48k
+speaker: MI Male
+text: "Even a just cause needs power to win."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI54_04 48k
+creation_date: 1997-04-15 16:28:01 UTC
+database: TSP Speech Files v2
+ID: TSP MI54_04 48k
+speaker: MI Male
+text: "Peep under the tent and see the clowns."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI54_05 48k
+creation_date: 1997-04-15 16:28:02 UTC
+database: TSP Speech Files v2
+ID: TSP MI54_05 48k
+speaker: MI Male
+text: "The leaf drifts along with a slow spin."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI54_06 48k
+creation_date: 1997-04-15 16:28:03 UTC
+database: TSP Speech Files v2
+ID: TSP MI54_06 48k
+speaker: MI Male
+text: "Cheap clothes are flashy but don't last."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI54_07 48k
+creation_date: 1997-04-15 16:28:05 UTC
+database: TSP Speech Files v2
+ID: TSP MI54_07 48k
+speaker: MI Male
+text: "A thing of small note can cause despair."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI54_08 48k
+creation_date: 1997-04-15 16:28:06 UTC
+database: TSP Speech Files v2
+ID: TSP MI54_08 48k
+speaker: MI Male
+text: "Flood the mails with requests for this book."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI54_09 48k
+creation_date: 1997-04-15 16:28:07 UTC
+database: TSP Speech Files v2
+ID: TSP MI54_09 48k
+speaker: MI Male
+text: "A thick coat of black paint covered all."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MI54_10 48k
+creation_date: 1997-04-15 16:28:08 UTC
+database: TSP Speech Files v2
+ID: TSP MI54_10 48k
+speaker: MI Male
+text: "The pencil was cut to be sharp at both ends."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
