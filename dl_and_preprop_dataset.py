@@ -20,9 +20,10 @@ from audio import preprocess
 from utils import download_file
 from datasets.mb_speech import MBSpeech
 from datasets.lj_speech import LJSpeech
+from datasets.tsp_speech import TSPSpeech
 
 parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-parser.add_argument("--dataset", required=True, choices=['ljspeech', 'mbspeech'], help='dataset name')
+parser.add_argument("--dataset", required=True, choices=['ljspeech', 'mbspeech', 'tspspeech'], help='dataset name')
 args = parser.parse_args()
 
 if args.dataset == 'ljspeech':
@@ -48,6 +49,12 @@ if args.dataset == 'ljspeech':
         print("pre processing...")
         lj_speech = LJSpeech([])
         preprocess(dataset_path, lj_speech)
+        
+elif args.dataset == 'tspspeech':
+    dataset_path = 'datasets/TSP_M_Speakers/'
+    tsp_speech = TSPSpeech([],"TSP_M_Speakers/")
+    preprocess(dataset_path, tsp_speech)
+    
 elif args.dataset == 'mbspeech':
     dataset_name = 'MBSpeech-1.0'
     datasets_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'datasets')
