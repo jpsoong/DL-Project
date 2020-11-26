@@ -41,6 +41,7 @@ valid_data_loader = Text2MelDataLoader(text2mel_dataset=SpeechDataset(['texts', 
                                        mode='valid')
 
 text2mel = Text2Mel(vocab).cuda()
+text2mel.load_state_dict(torch.load("ljspeech-text2mel.pth").state_dict())
 
 optimizer = torch.optim.Adam(text2mel.parameters(), lr=hp.text2mel_lr)
 
@@ -49,6 +50,7 @@ start_epoch = 0
 global_step = 0
 
 logger = Logger(args.dataset, 'text2mel')
+
 
 # load the last checkpoint if exists
 last_checkpoint_file_name = get_last_checkpoint_file_name(logger.logdir)
