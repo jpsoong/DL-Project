@@ -37,6 +37,7 @@ train_data_loader = SSRNDataLoader(ssrn_dataset=SpeechDataset(['mags', 'mels']),
 valid_data_loader = SSRNDataLoader(ssrn_dataset=SpeechDataset(['mags', 'mels']), batch_size=24, mode='valid')
 
 ssrn = SSRN().cuda()
+ssrn.load_state_dict(torch.load("ljspeech-ssrn.pth").state_dict())
 
 optimizer = torch.optim.Adam(ssrn.parameters(), lr=hp.ssrn_lr)
 
