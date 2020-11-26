@@ -40,7 +40,7 @@ train_data_loader = Text2MelDataLoader(text2mel_dataset=SpeechDataset(['texts', 
 valid_data_loader = Text2MelDataLoader(text2mel_dataset=SpeechDataset(['texts', 'mels', 'mel_gates']), batch_size=64,
                                        mode='valid')
 
-text2mel = Text2Mel(vocab).cuda()
+text2mel = Text2Mel(vocab).cuda()   
 text2mel.load_state_dict(torch.load("ljspeech-text2mel.pth").state_dict())
 
 optimizer = torch.optim.Adam(text2mel.parameters(), lr=hp.text2mel_lr)
