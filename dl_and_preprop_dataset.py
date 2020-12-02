@@ -54,7 +54,10 @@ elif args.dataset == 'tspspeech':
     dataset_path = 'datasets/TSP_M_Speakers/'
     tsp_speech = TSPSpeech([],"TSP_M_Speakers/")
     preprocess(dataset_path, tsp_speech)
-    
+elif args.dataset == 'mathias':
+    dataset_path = 'datasets/mathias_dataset/'
+    tsp_speech = TSPSpeech([], "mathias_dataset/")
+    preprocess(dataset_path, tsp_speech)
 elif args.dataset == 'mbspeech':
     dataset_name = 'MBSpeech-1.0'
     datasets_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'datasets')
