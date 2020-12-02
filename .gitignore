@@ -9,3 +9,5 @@ samples
 *.tar.bz2
 *.pth
 !pre-processing_testing.ipynb
+*.zip
+
