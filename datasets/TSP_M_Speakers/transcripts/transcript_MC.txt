@@ -1,0 +1,719 @@
+
+--Information records--
+title: Male speaker, MC13_01 48k
+creation_date: 1997-04-16 16:56:08 UTC
+database: TSP Speech Files v2
+ID: TSP MC13_01 48k
+speaker: MC Male
+text: "Type out three lists of orders."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC13_02 48k
+creation_date: 1997-04-16 16:56:10 UTC
+database: TSP Speech Files v2
+ID: TSP MC13_02 48k
+speaker: MC Male
+text: "The harder he tried the less he got done."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC13_03 48k
+creation_date: 1997-04-16 16:56:11 UTC
+database: TSP Speech Files v2
+ID: TSP MC13_03 48k
+speaker: MC Male
+text: "The boss ran the show with a watchful eye."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC13_04 48k
+creation_date: 1997-04-16 16:56:11 UTC
+database: TSP Speech Files v2
+ID: TSP MC13_04 48k
+speaker: MC Male
+text: "The cup cracked and spilled its contents."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC13_05 48k
+creation_date: 1997-04-16 16:56:12 UTC
+database: TSP Speech Files v2
+ID: TSP MC13_05 48k
+speaker: MC Male
+text: "Paste can cleanse the most dirty brass."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC13_06 48k
+creation_date: 1997-04-16 16:56:13 UTC
+database: TSP Speech Files v2
+ID: TSP MC13_06 48k
+speaker: MC Male
+text: "The slang word for raw whiskey is booze."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC13_07 48k
+creation_date: 1997-04-16 16:56:14 UTC
+database: TSP Speech Files v2
+ID: TSP MC13_07 48k
+speaker: MC Male
+text: "It caught its hind paw in a rusty trap."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC13_08 48k
+creation_date: 1997-04-16 16:56:15 UTC
+database: TSP Speech Files v2
+ID: TSP MC13_08 48k
+speaker: MC Male
+text: "The wharf could be seen at the farther shore."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC13_09 48k
+creation_date: 1997-04-16 16:56:16 UTC
+database: TSP Speech Files v2
+ID: TSP MC13_09 48k
+speaker: MC Male
+text: "Feel the heat of the weak dying flame."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC13_10 48k
+creation_date: 1997-04-16 16:56:17 UTC
+database: TSP Speech Files v2
+ID: TSP MC13_10 48k
+speaker: MC Male
+text: "The tiny girl took off her hat."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC14_01 48k
+creation_date: 1997-04-16 16:56:29 UTC
+database: TSP Speech Files v2
+ID: TSP MC14_01 48k
+speaker: MC Male
+text: "A cramp is no small danger on a swim."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC14_02 48k
+creation_date: 1997-04-16 16:56:29 UTC
+database: TSP Speech Files v2
+ID: TSP MC14_02 48k
+speaker: MC Male
+text: "He said the same phrase thirty times."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC14_03 48k
+creation_date: 1997-04-16 16:56:30 UTC
+database: TSP Speech Files v2
+ID: TSP MC14_03 48k
+speaker: MC Male
+text: "Pluck the bright rose without leaves."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC14_04 48k
+creation_date: 1997-04-17 11:47:40 UTC
+database: TSP Speech Files v2
+ID: TSP MC14_04 48k
+speaker: MC Male
+text: "Two plus seven is less than ten."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC14_05 48k
+creation_date: 1997-04-16 16:56:31 UTC
+database: TSP Speech Files v2
+ID: TSP MC14_05 48k
+speaker: MC Male
+text: "The glow deepened in the eyes of the sweet girl."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC14_06 48k
+creation_date: 1997-04-16 16:56:33 UTC
+database: TSP Speech Files v2
+ID: TSP MC14_06 48k
+speaker: MC Male
+text: "Bring your problems to the wise chief."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC14_07 48k
+creation_date: 1997-04-16 16:56:34 UTC
+database: TSP Speech Files v2
+ID: TSP MC14_07 48k
+speaker: MC Male
+text: "Write a fond note to the friend you cherish."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC14_08 48k
+creation_date: 1997-04-16 16:56:34 UTC
+database: TSP Speech Files v2
+ID: TSP MC14_08 48k
+speaker: MC Male
+text: "Clothes and lodging are free to new men."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC14_09 48k
+creation_date: 1997-04-16 16:56:36 UTC
+database: TSP Speech Files v2
+ID: TSP MC14_09 48k
+speaker: MC Male
+text: "We frown when events take a bad turn."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC14_10 48k
+creation_date: 1997-04-16 16:56:37 UTC
+database: TSP Speech Files v2
+ID: TSP MC14_10 48k
+speaker: MC Male
+text: "Port is a strong wine with a smoky taste."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC15_01 48k
+creation_date: 1997-04-16 16:56:43 UTC
+database: TSP Speech Files v2
+ID: TSP MC15_01 48k
+speaker: MC Male
+text: "The young kid jumped the rusty gate."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC15_02 48k
+creation_date: 1997-04-16 16:56:44 UTC
+database: TSP Speech Files v2
+ID: TSP MC15_02 48k
+speaker: MC Male
+text: "Guess the results from the first scores."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC15_03 48k
+creation_date: 1997-04-16 16:56:45 UTC
+database: TSP Speech Files v2
+ID: TSP MC15_03 48k
+speaker: MC Male
+text: "A salt pickle tastes fine with ham."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC15_04 48k
+creation_date: 1997-04-16 16:56:46 UTC
+database: TSP Speech Files v2
+ID: TSP MC15_04 48k
+speaker: MC Male
+text: "The just claim got the right verdict."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC15_05 48k
+creation_date: 1997-04-16 16:56:47 UTC
+database: TSP Speech Files v2
+ID: TSP MC15_05 48k
+speaker: MC Male
+text: "These thistles bend in a high wind."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC15_06 48k
+creation_date: 1997-04-16 16:56:48 UTC
+database: TSP Speech Files v2
+ID: TSP MC15_06 48k
+speaker: MC Male
+text: "Pure bred poodles have curls."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC15_07 48k
+creation_date: 1997-04-16 16:56:49 UTC
+database: TSP Speech Files v2
+ID: TSP MC15_07 48k
+speaker: MC Male
+text: "The tree top waved in a graceful way."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC15_08 48k
+creation_date: 1997-04-16 16:56:49 UTC
+database: TSP Speech Files v2
+ID: TSP MC15_08 48k
+speaker: MC Male
+text: "The spot on the blotter was made by green ink."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC15_09 48k
+creation_date: 1997-04-16 16:56:50 UTC
+database: TSP Speech Files v2
+ID: TSP MC15_09 48k
+speaker: MC Male
+text: "Mud was spattered on the front of his white shirt."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC15_10 48k
+creation_date: 1997-04-16 16:56:51 UTC
+database: TSP Speech Files v2
+ID: TSP MC15_10 48k
+speaker: MC Male
+text: "The cigar burned a hole in the desk top."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC16_01 48k
+creation_date: 1997-04-16 16:56:55 UTC
+database: TSP Speech Files v2
+ID: TSP MC16_01 48k
+speaker: MC Male
+text: "The empty flask stood on the tin tray."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC16_02 48k
+creation_date: 1997-04-16 16:56:55 UTC
+database: TSP Speech Files v2
+ID: TSP MC16_02 48k
+speaker: MC Male
+text: "A speedy man can beat this track mark."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC16_03 48k
+creation_date: 1997-04-16 16:56:56 UTC
+database: TSP Speech Files v2
+ID: TSP MC16_03 48k
+speaker: MC Male
+text: "He broke a new shoelace that day."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC16_04 48k
+creation_date: 1997-04-16 16:56:57 UTC
+database: TSP Speech Files v2
+ID: TSP MC16_04 48k
+speaker: MC Male
+text: "The coffee stand is too high for the couch."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC16_05 48k
+creation_date: 1997-04-16 16:56:58 UTC
+database: TSP Speech Files v2
+ID: TSP MC16_05 48k
+speaker: MC Male
+text: "The urge to write short stories is rare."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC16_06 48k
+creation_date: 1997-04-16 16:56:59 UTC
+database: TSP Speech Files v2
+ID: TSP MC16_06 48k
+speaker: MC Male
+text: "The pencils have all been used."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC16_07 48k
+creation_date: 1997-04-16 16:56:59 UTC
+database: TSP Speech Files v2
+ID: TSP MC16_07 48k
+speaker: MC Male
+text: "The pirates seized the crew of the lost ship."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC16_08 48k
+creation_date: 1997-04-16 16:57:00 UTC
+database: TSP Speech Files v2
+ID: TSP MC16_08 48k
+speaker: MC Male
+text: "We tried to replace the coin but failed."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC16_09 48k
+creation_date: 1997-04-16 16:57:01 UTC
+database: TSP Speech Files v2
+ID: TSP MC16_09 48k
+speaker: MC Male
+text: "She sewed the torn coat quite neatly."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC16_10 48k
+creation_date: 1997-04-16 16:57:02 UTC
+database: TSP Speech Files v2
+ID: TSP MC16_10 48k
+speaker: MC Male
+text: "The sofa cushion is red and of light weight."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC17_01 48k
+creation_date: 1997-04-16 16:57:05 UTC
+database: TSP Speech Files v2
+ID: TSP MC17_01 48k
+speaker: MC Male
+text: "The jacket hung on the back of the wide chair."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC17_02 48k
+creation_date: 1997-04-16 16:57:05 UTC
+database: TSP Speech Files v2
+ID: TSP MC17_02 48k
+speaker: MC Male
+text: "At that high level the air is pure."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC17_03 48k
+creation_date: 1997-04-16 16:57:07 UTC
+database: TSP Speech Files v2
+ID: TSP MC17_03 48k
+speaker: MC Male
+text: "Drop the two when you add the figures."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC17_04 48k
+creation_date: 1997-04-16 16:57:07 UTC
+database: TSP Speech Files v2
+ID: TSP MC17_04 48k
+speaker: MC Male
+text: "A filing case is now hard to buy."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC17_05 48k
+creation_date: 1997-04-16 16:57:08 UTC
+database: TSP Speech Files v2
+ID: TSP MC17_05 48k
+speaker: MC Male
+text: "An abrupt start does not win the prize."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC17_06 48k
+creation_date: 1997-04-16 16:57:09 UTC
+database: TSP Speech Files v2
+ID: TSP MC17_06 48k
+speaker: MC Male
+text: "Wood is best for making toys and blocks."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC17_07 48k
+creation_date: 1997-04-16 17:49:24 UTC
+database: TSP Speech Files v2
+ID: TSP MC17_07 48k
+speaker: MC Male
+text: "The office paint was a dull, sad tan."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC17_08 48k
+creation_date: 1997-04-16 16:57:10 UTC
+database: TSP Speech Files v2
+ID: TSP MC17_08 48k
+speaker: MC Male
+text: "He knew the skill of the great young actress."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC17_09 48k
+creation_date: 1997-04-16 16:57:11 UTC
+database: TSP Speech Files v2
+ID: TSP MC17_09 48k
+speaker: MC Male
+text: "A rag will soak up spilled water."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC17_10 48k
+creation_date: 1997-04-16 16:57:12 UTC
+database: TSP Speech Files v2
+ID: TSP MC17_10 48k
+speaker: MC Male
+text: "A shower of dirt fell from the hot pipes."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC18_01 48k
+creation_date: 1997-04-16 16:57:15 UTC
+database: TSP Speech Files v2
+ID: TSP MC18_01 48k
+speaker: MC Male
+text: "Steam hissed from the broken valve."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC18_02 48k
+creation_date: 1997-04-16 16:57:15 UTC
+database: TSP Speech Files v2
+ID: TSP MC18_02 48k
+speaker: MC Male
+text: "The child almost hurt the small dog."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC18_03 48k
+creation_date: 1997-04-16 16:57:16 UTC
+database: TSP Speech Files v2
+ID: TSP MC18_03 48k
+speaker: MC Male
+text: "There was a sound of dry leaves outside."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC18_04 48k
+creation_date: 1997-04-16 16:57:17 UTC
+database: TSP Speech Files v2
+ID: TSP MC18_04 48k
+speaker: MC Male
+text: "The sky that morning was clear and bright blue."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC18_05 48k
+creation_date: 1997-04-16 16:57:18 UTC
+database: TSP Speech Files v2
+ID: TSP MC18_05 48k
+speaker: MC Male
+text: "Torn scraps littered the stone floor."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC18_06 48k
+creation_date: 1997-04-16 16:57:19 UTC
+database: TSP Speech Files v2
+ID: TSP MC18_06 48k
+speaker: MC Male
+text: "Sunday is the best part of the week."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC18_07 48k
+creation_date: 1997-04-16 16:57:19 UTC
+database: TSP Speech Files v2
+ID: TSP MC18_07 48k
+speaker: MC Male
+text: "The doctor cured him with these pills."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC18_08 48k
+creation_date: 1997-04-16 16:57:20 UTC
+database: TSP Speech Files v2
+ID: TSP MC18_08 48k
+speaker: MC Male
+text: "The new girl was fired today at noon."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC18_09 48k
+creation_date: 1997-04-16 16:57:21 UTC
+database: TSP Speech Files v2
+ID: TSP MC18_09 48k
+speaker: MC Male
+text: "They felt gay when the ship arrived in port."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
+
+
+--Information records--
+title: Male speaker, MC18_10 48k
+creation_date: 1997-04-16 16:57:22 UTC
+database: TSP Speech Files v2
+ID: TSP MC18_10 48k
+speaker: MC Male
+text: "Add the store's account to the last cent."
+recording_conditions:
+  Anechoic room, Sony ECM-909A microphone,
+  Sony TCD-D2 DAT recorder
