@@ -24,7 +24,14 @@ args = parser.parse_args()
 if args.dataset == 'ljspeech':
     from datasets.lj_speech import LJSpeech as SpeechDataset
 elif args.dataset == 'tspspeech' or args.dataset == 'mathias':
-    from datasets.tsp_speech import vocab, TSPSpeech as SpeechDataset
+	if args.dataset == 'mathias':
+		metadata_file = 'mathias_metadata.csv'
+		dataset_path = 'mathias_dataset'
+	else:
+		metadata_file = 'TSP_MD_metadata.csv'
+		dataset_path = 'TSP_MD_metadata.csv'
+	from datasets.tsp_speech import vocab, TSPSpeech as SpeechDataset
+
 else:
     from datasets.mb_speech import MBSpeech as SpeechDataset
 
@@ -33,8 +40,8 @@ print('use_gpu', use_gpu)
 if use_gpu:
     torch.backends.cudnn.benchmark = True
 
-train_data_loader = SSRNDataLoader(ssrn_dataset=SpeechDataset(['mags', 'mels']), batch_size=24, mode='train')
-valid_data_loader = SSRNDataLoader(ssrn_dataset=SpeechDataset(['mags', 'mels']), batch_size=24, mode='valid')
+train_data_loader = SSRNDataLoader(ssrn_dataset=SpeechDataset(['mags', 'mels'], dataset_path, metadata_file), batch_size=24, mode='train')
+valid_data_loader = SSRNDataLoader(ssrn_dataset=SpeechDataset(['mags', 'mels'], dataset_path, metadata_file), batch_size=24, mode='valid')
 
 ssrn = SSRN().cuda()
 ssrn.load_state_dict(torch.load("ljspeech-ssrn.pth").state_dict())

@@ -26,7 +26,13 @@ args = parser.parse_args()
 if args.dataset == 'ljspeech':
     from datasets.lj_speech import vocab, LJSpeech as SpeechDataset
 elif args.dataset == 'tspspeech' or args.dataset == 'mathias':
-    from datasets.tsp_speech import vocab, TSPSpeech as SpeechDataset
+	if args.dataset == 'mathias':
+		metadata_file = 'mathias_metadata.csv'
+		dataset_path = 'mathias_dataset'
+	else:
+		metadata_file = 'TSP_MD_metadata.csv'
+		dataset_path = 'TSP_MD_metadata.csv'
+	from datasets.tsp_speech import vocab, TSPSpeech as SpeechDataset
 else:
     from datasets.mb_speech import vocab, MBSpeech as SpeechDataset
 
@@ -35,10 +41,8 @@ print('use_gpu', use_gpu)
 if use_gpu:
     torch.backends.cudnn.benchmark = True
 
-train_data_loader = Text2MelDataLoader(text2mel_dataset=SpeechDataset(['texts', 'mels', 'mel_gates']), batch_size=64,
-                                       mode='train')
-valid_data_loader = Text2MelDataLoader(text2mel_dataset=SpeechDataset(['texts', 'mels', 'mel_gates']), batch_size=64,
-                                       mode='valid')
+train_data_loader = Text2MelDataLoader(text2mel_dataset=SpeechDataset(['texts', 'mels', 'mel_gates'], dataset_path, metadata_file), batch_size=64, mode='train')
+valid_data_loader = Text2MelDataLoader(text2mel_dataset=SpeechDataset(['texts', 'mels', 'mel_gates'], dataset_path, metadata_file), batch_size=64, mode='valid')
 
 text2mel = Text2Mel(vocab).cuda()   
 text2mel.load_state_dict(torch.load("ljspeech-text2mel.pth").state_dict()) 
