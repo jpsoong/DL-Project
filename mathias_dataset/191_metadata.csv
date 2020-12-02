@@ -1,0 +1,74 @@
+191-0000|Hi, and welcome back to another deep learning lecture.|Hi, and welcome back to another deep learning lecture.
+191-0001|Today, we will be talking about THE topic that you have all been waiting for.|Today, we will be talking about THE topic that you have all been waiting for.
+191-0002|We are at Hopkins.|We are at Hopkins.
+191-0003|No deep learning course, and no course probably in general at Hopkins, can go|No deep learning course, and no course probably in general at Hopkins, can go
+191-0004|Without a specialized lecture, at least, on healthcare.|Without a specialized, lecture, at least, on healthcare.
+191-0005|And today we will presenting some of the recent successes, some of the challenges, and in general, some thoughts on, the revolution, applications, and challenges of deep learning.|And today we will presenting some of the recent successes, some of the challenges, and in general, some thoughts on, the revolution, applications, and challenges of deep learning.
+191-0006|As a quick reminder of where we are in the course, we're finally|As a quick reminder of where we are in the course, we're finally
+191-0007|have mastered most of the fundamental techniques that we need to understand some of the more emerging and state of the art approaches.|have mastered most of the fundamental techniques that we need to understand some of the more emerging and state of the art approaches.
+191-0008|Just last lecture we considered some of the, very interesting research and tools that we have to understand|Just last lecture we considered some of the, very interesting research and tools that we have to understand
+191-0009|the black box models that are deep learning neural networks.|the black box models that are deep learning neural networks.
+191-0010|We started by talking about different approaches to visualize area,|We started by talking about different approaches to visualize area,
+191-0011|Visualize features, visualize images, and textures when propagated through a neural network, will produce high responses.|Visualize features, visualize images, and textures when propagated through a neural network, will produce high responses.
+191-0012|The first approach was generating images that maximally excited a specific neuron using backpropagation techniques,|The first approach was generating images that maximally excited a specific neuron using backpropagation techniques,
+191-0013|and the second approach was using backpropagation tending not to update the image, but to backpropagate|and the second approach was using backpropagation tending not to update the image, but to backpropagate
+191-0014|in to the image space, the regions that if altered, would result in a maximum change in overall activation in the final output.|in to the image space, the regions that if altered, would result in a maximum change in overall activation in the final output.
+191-0015|Salient regions,saliency mapping, class activation mapping,were other words that we used for that,so if you see that,you know how that method works and what it tells you.|Salient regions,saliency mapping,class activation mapping,were other words that we used for that,so if you see that,you know how that method works and what it tells you.
+191-0016|We also saw that they are not without problems,|We also saw that they are not without problems,
+191-0017|because depending on which method we used as we backpropagate and integrate the gradients as we go back through the network,|because depending on which method we used as we backpropagate and integrate the gradients as we go back through the network,
+191-0018|Some of these methods actually are absolutely invariant to complete randomization of our neural network weights,|Some of these methods actually are absolutely invariant to complete randomization of our neural network weights,
+191-0019|which,really fools us into believing that this is a true explanation of our model.|which,really fools us into believing that this is a true explanation of our model.
+191-0020|We then saw that,some of the deep learning architectures that we are dealing with are not necessarily performing inference in the same way that we think that they would do that.|We then saw that,some of the deep learning architectures that we are dealing with are not necessarily performing inference in the same way that we think that they would do that.
+191-0021|An Indian elephant.|An Indian elephant.
+191-0022|We have a tabby cat image.|We have a tabby cat image.
+191-0023|And then we have a stylized image that uses the content and shape outline of the tabby cat, but the texture of the Indian elephant skin.|And then we have a stylized image that uses the content and shape outline of the tabby cat, but the texture of the Indian elephant skin.
+191-0024|Today, we want to talk about, slightly different topic, which is also more about application, and research aspect, maybe a little bit more philosophical than what we did before even.|Today,we want to talk about,slightly different topic,which is also more about application,and research aspect,maybe a little bit more philosophical than what we did before even.
+191-0025|And we want to think about,whether,and how deep learning and machine learning approaches,in general,is revolutionizing healthcare.|And we want to think about,whether,and how deep learning and machine learning approaches,in general,is revolutionizing healthcare.
+191-0026|In order to understand that, let's start by outlining this contemporary approach to healthcare delivery.|In order to understand that, let's start by outlining this contemporary approach to healthcare delivery.
+191-0027|How is the system structured,in a way.|How is the system structured,in a way.
+191-0028|So what we're seeing here is that,a patient, with symptoms, presents at the doctor's office,|So what we're seeing here is that,a patient,with symptoms,presents at the doctor's office,
+191-0029|The patient describes the symptoms to the doctor,and the doctor performs a physical examination,orders lab or imaging tests,or all sorts of other testing may be performed at that stage.|The patient describes the symptoms to the doctor,and the doctor performs a physical examination,orders lab or imaging tests,or all sorts of other testing may be performed at that stage.
+191-0030|Which then informs a differential diagnosis.|Which then informs a differential diagnosis.
+191-0031|This differential diagnosis is performed based on guidelines,|This differential diagnosis is performed based on guidelines,
+191-0032|guidelines, are informed, in retrospect by empirical research, and are updated every once in a while. |guidelines, are informed, in retrospect by empirical research, and are updated every once in a while.
+191-0033|And, the differential diagnosis is very strongly guided by experience,and potentially even intuition.|And, the differential diagnosis is very strongly guided by experience,and potentially even intuition.
+191-0034|If anyone here has seen House em dee, you probably have a feeling of what may happen in differential diagnosis,maybe in a slightly less dramatic way, in the real life, than that television show.|If anyone here has seen House em dee,you probably have a feeling of what may happen in differential diagnosis,maybe in a slightly less dramatic way, in the real life, than that television show.
+191-0035|The question really is,we're talking about how ay eye, how deep learning, is revolutionizing|The question really is, we're talking about how A I,how deep learning, is revolutionizing
+191-0036|healthcare, so where in this spectrum do we see opportunity for improvement?|healthcare, so where in this spectrum do we see opportunity for improvement?
+191-0037|Well,I think you probably already guessed it.|Well,I think you probably already guessed it.
+191-0038|The answer is, everywhere.|The answer is, everywhere.
+191-0039|The first thing that can ask, actually, is, and this is what you should always do, is, am I actually asking you the right question?|The first thing that can ask, actually, is, and this is what you should always do, is, am I actually asking you the right question?
+191-0040|This was an assumption, right?|This was an assumption, right?
+191-0041|I started with, the patient presents with symptoms.|I started with, the patient presents with symptoms.
+191-0042|But it doesn't necessarily have to come this far, right?|But it doesn't necessarily have to come this far, right?
+191-0043|Public health and wellness, mobile health, are the big keywords that you should be interested in.|Public health and wellness, mobile health, are the big keywords that you should be interested in.
+191-0044|They start to improve people's lives, in the sense that they may prevent the need for a doctor's office later.|They start to improve people's lives, in the sense that they may prevent the need for a doctor's office later.
+191-0045|The same thing happens with some of the smart watches you may have.|The same thing happens with some of the smart watches you may have.
+191-0046|All of these are important,and neural networks and deep learning, particularly in the context of personalization, play in a very important role, in all of those aspects.|All of these are important, and neural networks and deep learning, particularly in the context of personalization,play in a very important role,in all of those aspects.
+191-0047|Where now what we're really interested in is, bringing the power of a I, the power of data, to day to day tasks.|Where now what we're really interested in is, bringing the power of a I, the power of data, to day to day tasks.
+191-0048|Because now what we can do is,we can use large amount of data, and parse them, and process them in interesting ways, to personalize the differential diagnosis.|Because now what we can do is, we can use large amount of data, and parse them, and process them in interesting ways, to personalize the differential diagnosis.
+191-0049|There is a whole lot of research in digital twins.|There is a whole lot of research in digital twins.
+191-0050|It's also important that we're moving away from qualitative assessment that is experience based of doctors, and move towards quantitative, personalized medicine.|It's also important that we're moving away from qualitative assessment that is experience based of doctors, and move towards quantitative, personalized medicine.
+191-0051|That is important in multiple different ways,|That is important in multiple different ways,
+191-0052|On the one hand it allows us,|On the one hand it allows us,
+191-0053|to really analyze all, or if not most, of the data that we acquire which is very difficult for humans to do, simply because the data load is overwhelming.|to really analyze all, or if not most, of the data that we acquire which is very difficult for humans to do, simply because the data load is overwhelming.
+191-0054|There is another very important thing that does not only affect these automated measurements,|There is another very important thing that does not only affect these automated measurements, 
+191-0055|it comes in earlier, it's the fact that healthcare system quality is very different across the world.|it comes in earlier, it's the fact that healthcare system quality is very different across the world.
+191-0056|But it's even very different across the you ess.|But it's even very different across the you ess.
+191-0057|What does that mean.|What does that mean.
+191-0058|It means that, the quality of the, say, the differential diagnosis,|It means that, the quality of the, say, the differential diagnosis,
+191-0059|and consequently the treatment decision that you recieve, will depend on the expertise, and the professionalism of the healthcare system and the specific provider that you see.|and consequently the treatment decision that you recieve, will depend on the expertise, and the professionalism of the healthcare system and the specific provider that you see.
+191-0060|And if that is different across different places, then consequently your chances for a good outcome after a disease are also different.|And if that is different across different places, then consequently your chances for a good outcome after a disease are also different.
+191-0061|Finally, once we have defined the differential diagnosis, we know what the true cause of the disease,|Finally, once we have defined the differential diagnosis, we know what the true cause of the disease,
+191-0062|We can apply a treatment.|We can apply a treatment.
+191-0063|There is a whole nother line of work which is on interventional assistance,|There is a whole nother line of work which is on interventional assistance,
+191-0064|Where for example, people are working on interactive or automated segmentation algorithm.|Where for example, people are working on interactive or automated segmentation algorithm.
+191-0065|There is a lot of work on data fusion that can inform intra operatively,|There is a lot of work on data fusion that can inform intra operatively,
+191-0066|Where to place instruments and implants optimally, so that is a lot about image registration.|Where to place instruments and implants optimally, so that is a lot about image registration.
+191-0067|And then there is a different line of work,|And then there is a different line of work,
+191-0068|That tries to perform activity recognition, skill recognition during surgery,|That tries to perform activity recognition, skill recognition during surgery,
+191-0069|It is important both for the education and the training of new surgeons and residents,|It is important both for the education and the training of new surgeons and residents,
+191-0070|But it can also be important in order to give feedback immediately during the surgery, and actively assist the surgeon in the activities that they are performing.|But it can also be important in order to give feedback immediately during the surgery, and actively assist the surgeon in the  activities that they are performing.
+191-0071|All of these are very interesting topics of research,|All of these are very interesting topics of research,
+191-0072|All the way from public health and wellness,|All the way from public health and wellness,
+191-0073|To actually trying to help and guide treatment, interventionally.|To actually trying to help and guide treatment, interventionally.
