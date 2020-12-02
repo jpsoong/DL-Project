@@ -23,7 +23,7 @@ from datasets.lj_speech import LJSpeech
 from datasets.tsp_speech import TSPSpeech
 
 parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-parser.add_argument("--dataset", required=True, choices=['ljspeech', 'mbspeech', 'tspspeech'], help='dataset name')
+parser.add_argument("--dataset", required=True, choices=['ljspeech', 'mbspeech', 'tspspeech', 'mathias'], help='dataset name')
 args = parser.parse_args()
 
 if args.dataset == 'ljspeech':
@@ -52,11 +52,11 @@ if args.dataset == 'ljspeech':
         
 elif args.dataset == 'tspspeech':
     dataset_path = 'datasets/TSP_M_Speakers/'
-    tsp_speech = TSPSpeech([],"TSP_M_Speakers/")
+    tsp_speech = TSPSpeech([],"TSP_M_Speakers/", "MD_metadata.csv")
     preprocess(dataset_path, tsp_speech)
 elif args.dataset == 'mathias':
     dataset_path = 'datasets/mathias_dataset/'
-    tsp_speech = TSPSpeech([], "mathias_dataset/")
+    tsp_speech = TSPSpeech([], "mathias_dataset/", "mathias_metadata.csv")
     preprocess(dataset_path, tsp_speech)
 elif args.dataset == 'mbspeech':
     dataset_name = 'MBSpeech-1.0'

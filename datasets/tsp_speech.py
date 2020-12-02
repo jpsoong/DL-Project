@@ -27,6 +27,7 @@ def read_metadata(metadata_file):
     transcript = os.path.join(metadata_file)
     lines = codecs.open(transcript, 'r', 'utf-8-sig').readlines()
     for line in lines:
+        print(line)
         fname, _, text = line.strip().split("|")
         fname = fname.strip("\"")
         fnames.append(fname)
@@ -48,11 +49,10 @@ def get_test_data(sentences, max_n):
 
 
 class TSPSpeech(Dataset):
-    def __init__(self, keys, dir_name='TSP_M_Speakers'):
+    def __init__(self, keys, dir_name='TSP_MD_Speakers', metadata_name='TSP-MD_metadata.csv'):
         self.keys = keys
         self.path = os.path.join(os.path.dirname(os.path.realpath(__file__)), dir_name)
-        print(self.path)
-        self.fnames, self.text_lengths, self.texts = read_metadata(os.path.join(self.path, 'TSP-M_metadata.csv'))
+        self.fnames, self.text_lengths, self.texts = read_metadata(os.path.join(self.path, metadata_name))
 
     def slice(self, start, end):
         self.fnames = self.fnames[start:end]

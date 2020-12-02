@@ -18,12 +18,12 @@ from utils import get_last_checkpoint_file_name, load_checkpoint, save_checkpoin
 from datasets.data_loader import SSRNDataLoader
 
 parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-parser.add_argument("--dataset", required=True, choices=['ljspeech', 'mbspeech', 'tspspeech'], help='dataset name')
+parser.add_argument("--dataset", required=True, choices=['ljspeech', 'mbspeech', 'tspspeech', 'mathias'], help='dataset name')
 args = parser.parse_args()
 
 if args.dataset == 'ljspeech':
     from datasets.lj_speech import LJSpeech as SpeechDataset
-elif args.dataset == 'tspspeech':
+elif args.dataset == 'tspspeech' or args.dataset == 'mathias':
     from datasets.tsp_speech import vocab, TSPSpeech as SpeechDataset
 else:
     from datasets.mb_speech import MBSpeech as SpeechDataset
