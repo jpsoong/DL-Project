@@ -20,19 +20,22 @@ from utils import get_last_checkpoint_file_name, load_checkpoint, save_checkpoin
 from datasets.data_loader import Text2MelDataLoader
 
 parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-parser.add_argument("--dataset", required=True, choices=['ljspeech', 'mbspeech', 'tspspeech', 'mathias'], help='dataset name')
+parser.add_argument("--dataset", required=True, choices=['ljspeech', 'mbspeech', 'tspspeech', 'mathias', 'matsp'], help='dataset name')
 args = parser.parse_args()
 
 if args.dataset == 'ljspeech':
     from datasets.lj_speech import vocab, LJSpeech as SpeechDataset
-elif args.dataset == 'tspspeech' or args.dataset == 'mathias':
-	if args.dataset == 'mathias':
-		metadata_file = 'mathias_metadata.csv'
-		dataset_path = 'mathias_dataset'
-	else:
-		metadata_file = 'TSP_MD_metadata.csv'
-		dataset_path = 'TSP_MD_metadata.csv'
-	from datasets.tsp_speech import vocab, TSPSpeech as SpeechDataset
+elif args.dataset == 'tspspeech' or args.dataset == 'mathias' or args.dataset == 'matsp':
+    from datasets.tsp_speech import vocab, TSPSpeech as SpeechDataset
+    if args.dataset == 'mathias':
+        metadata_file = 'mathias_metadata.csv'
+        dataset_path = 'mathias_dataset'
+    elif args.dataset == 'matsp':
+        metadata_file = 'matsp_metadata.csv'
+        dataset_path = 'matsp_dataset'
+    else:
+        metadata_file = 'TSP_MD_metadata.csv'
+        dataset_path = 'TSP_MD_metadata.csv'
 else:
     from datasets.mb_speech import vocab, MBSpeech as SpeechDataset
 

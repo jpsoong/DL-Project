@@ -1,0 +1,435 @@
+191-0000|Hi, and welcome back to another deep learning lecture.|Hi, and welcome back to another deep learning lecture.
+191-0001|Today, we will be talking about THE topic that you have all been waiting for.|Today, we will be talking about THE topic that you have all been waiting for.
+191-0002|We are at Hopkins.|We are at Hopkins.
+191-0003|No deep learning course, and no course probably in general at Hopkins, can go|No deep learning course, and no course probably in general at Hopkins, can go
+191-0004|Without a specialized lecture, at least, on healthcare.|Without a specialized, lecture, at least, on healthcare.
+191-0005|And today we will presenting some of the recent successes, some of the challenges, and in general, some thoughts on, the revolution, applications, and challenges of deep learning.|And today we will presenting some of the recent successes, some of the challenges, and in general, some thoughts on, the revolution, applications, and challenges of deep learning.
+191-0006|As a quick reminder of where we are in the course, we're finally|As a quick reminder of where we are in the course, we're finally
+191-0007|have mastered most of the fundamental techniques that we need to understand some of the more emerging and state of the art approaches.|have mastered most of the fundamental techniques that we need to understand some of the more emerging and state of the art approaches.
+191-0008|Just last lecture we considered some of the, very interesting research and tools that we have to understand|Just last lecture we considered some of the, very interesting research and tools that we have to understand
+191-0009|the black box models that are deep learning neural networks.|the black box models that are deep learning neural networks.
+191-0010|We started by talking about different approaches to visualize area,|We started by talking about different approaches to visualize area,
+191-0011|Visualize features, visualize images, and textures when propagated through a neural network, will produce high responses.|Visualize features, visualize images, and textures when propagated through a neural network, will produce high responses.
+191-0012|The first approach was generating images that maximally excited a specific neuron using backpropagation techniques,|The first approach was generating images that maximally excited a specific neuron using backpropagation techniques,
+191-0013|and the second approach was using backpropagation tending not to update the image, but to backpropagate|and the second approach was using backpropagation tending not to update the image, but to backpropagate
+191-0014|in to the image space, the regions that if altered, would result in a maximum change in overall activation in the final output.|in to the image space, the regions that if altered, would result in a maximum change in overall activation in the final output.
+191-0015|Salient regions,saliency mapping, class activation mapping,were other words that we used for that,so if you see that,you know how that method works and what it tells you.|Salient regions,saliency mapping,class activation mapping,were other words that we used for that,so if you see that,you know how that method works and what it tells you.
+191-0016|We also saw that they are not without problems,|We also saw that they are not without problems,
+191-0017|because depending on which method we used as we backpropagate and integrate the gradients as we go back through the network,|because depending on which method we used as we backpropagate and integrate the gradients as we go back through the network,
+191-0018|Some of these methods actually are absolutely invariant to complete randomization of our neural network weights,|Some of these methods actually are absolutely invariant to complete randomization of our neural network weights,
+191-0019|which,really fools us into believing that this is a true explanation of our model.|which,really fools us into believing that this is a true explanation of our model.
+191-0020|We then saw that,some of the deep learning architectures that we are dealing with are not necessarily performing inference in the same way that we think that they would do that.|We then saw that,some of the deep learning architectures that we are dealing with are not necessarily performing inference in the same way that we think that they would do that.
+191-0021|An Indian elephant.|An Indian elephant.
+191-0022|We have a tabby cat image.|We have a tabby cat image.
+191-0023|And then we have a stylized image that uses the content and shape outline of the tabby cat, but the texture of the Indian elephant skin.|And then we have a stylized image that uses the content and shape outline of the tabby cat, but the texture of the Indian elephant skin.
+191-0024|Today, we want to talk about, slightly different topic, which is also more about application, and research aspect, maybe a little bit more philosophical than what we did before even.|Today,we want to talk about,slightly different topic,which is also more about application,and research aspect,maybe a little bit more philosophical than what we did before even.
+191-0025|And we want to think about,whether,and how deep learning and machine learning approaches,in general,is revolutionizing healthcare.|And we want to think about,whether,and how deep learning and machine learning approaches,in general,is revolutionizing healthcare.
+191-0026|In order to understand that, let's start by outlining this contemporary approach to healthcare delivery.|In order to understand that, let's start by outlining this contemporary approach to healthcare delivery.
+191-0027|How is the system structured,in a way.|How is the system structured,in a way.
+191-0028|So what we're seeing here is that,a patient, with symptoms, presents at the doctor's office,|So what we're seeing here is that,a patient,with symptoms,presents at the doctor's office,
+191-0029|The patient describes the symptoms to the doctor,and the doctor performs a physical examination,orders lab or imaging tests,or all sorts of other testing may be performed at that stage.|The patient describes the symptoms to the doctor,and the doctor performs a physical examination,orders lab or imaging tests,or all sorts of other testing may be performed at that stage.
+191-0030|Which then informs a differential diagnosis.|Which then informs a differential diagnosis.
+191-0031|This differential diagnosis is performed based on guidelines,|This differential diagnosis is performed based on guidelines,
+191-0032|guidelines, are informed, in retrospect by empirical research, and are updated every once in a while. |guidelines, are informed, in retrospect by empirical research, and are updated every once in a while.
+191-0033|And, the differential diagnosis is very strongly guided by experience,and potentially even intuition.|And, the differential diagnosis is very strongly guided by experience,and potentially even intuition.
+191-0034|If anyone here has seen House em dee, you probably have a feeling of what may happen in differential diagnosis,maybe in a slightly less dramatic way, in the real life, than that television show.|If anyone here has seen House em dee,you probably have a feeling of what may happen in differential diagnosis,maybe in a slightly less dramatic way, in the real life, than that television show.
+191-0035|The question really is,we're talking about how ay eye, how deep learning, is revolutionizing|The question really is, we're talking about how A I,how deep learning, is revolutionizing
+191-0036|healthcare, so where in this spectrum do we see opportunity for improvement?|healthcare, so where in this spectrum do we see opportunity for improvement?
+191-0037|Well,I think you probably already guessed it.|Well,I think you probably already guessed it.
+191-0038|The answer is, everywhere.|The answer is, everywhere.
+191-0039|The first thing that can ask, actually, is, and this is what you should always do, is, am I actually asking you the right question?|The first thing that can ask, actually, is, and this is what you should always do, is, am I actually asking you the right question?
+191-0040|This was an assumption, right?|This was an assumption, right?
+191-0041|I started with, the patient presents with symptoms.|I started with, the patient presents with symptoms.
+191-0042|But it doesn't necessarily have to come this far, right?|But it doesn't necessarily have to come this far, right?
+191-0043|Public health and wellness, mobile health, are the big keywords that you should be interested in.|Public health and wellness, mobile health, are the big keywords that you should be interested in.
+191-0044|They start to improve people's lives, in the sense that they may prevent the need for a doctor's office later.|They start to improve people's lives, in the sense that they may prevent the need for a doctor's office later.
+191-0045|The same thing happens with some of the smart watches you may have.|The same thing happens with some of the smart watches you may have.
+191-0046|All of these are important,and neural networks and deep learning, particularly in the context of personalization, play in a very important role, in all of those aspects.|All of these are important, and neural networks and deep learning, particularly in the context of personalization,play in a very important role,in all of those aspects.
+191-0047|Where now what we're really interested in is, bringing the power of a I, the power of data, to day to day tasks.|Where now what we're really interested in is, bringing the power of a I, the power of data, to day to day tasks.
+191-0048|Because now what we can do is,we can use large amount of data, and parse them, and process them in interesting ways, to personalize the differential diagnosis.|Because now what we can do is, we can use large amount of data, and parse them, and process them in interesting ways, to personalize the differential diagnosis.
+191-0049|There is a whole lot of research in digital twins.|There is a whole lot of research in digital twins.
+191-0050|It's also important that we're moving away from qualitative assessment that is experience based of doctors, and move towards quantitative, personalized medicine.|It's also important that we're moving away from qualitative assessment that is experience based of doctors, and move towards quantitative, personalized medicine.
+191-0051|That is important in multiple different ways,|That is important in multiple different ways,
+191-0052|On the one hand it allows us,|On the one hand it allows us,
+191-0053|to really analyze all, or if not most, of the data that we acquire which is very difficult for humans to do, simply because the data load is overwhelming.|to really analyze all, or if not most, of the data that we acquire which is very difficult for humans to do, simply because the data load is overwhelming.
+191-0054|There is another very important thing that does not only affect these automated measurements,|There is another very important thing that does not only affect these automated measurements, 
+191-0055|it comes in earlier, it's the fact that healthcare system quality is very different across the world.|it comes in earlier, it's the fact that healthcare system quality is very different across the world.
+191-0056|But it's even very different across the you ess.|But it's even very different across the you ess.
+191-0057|What does that mean.|What does that mean.
+191-0058|It means that, the quality of the, say, the differential diagnosis,|It means that, the quality of the, say, the differential diagnosis,
+191-0059|and consequently the treatment decision that you recieve, will depend on the expertise, and the professionalism of the healthcare system and the specific provider that you see.|and consequently the treatment decision that you recieve, will depend on the expertise, and the professionalism of the healthcare system and the specific provider that you see.
+191-0060|And if that is different across different places, then consequently your chances for a good outcome after a disease are also different.|And if that is different across different places, then consequently your chances for a good outcome after a disease are also different.
+191-0061|Finally, once we have defined the differential diagnosis, we know what the true cause of the disease,|Finally, once we have defined the differential diagnosis, we know what the true cause of the disease,
+191-0062|We can apply a treatment.|We can apply a treatment.
+191-0063|There is a whole nother line of work which is on interventional assistance,|There is a whole nother line of work which is on interventional assistance,
+191-0064|Where for example, people are working on interactive or automated segmentation algorithm.|Where for example, people are working on interactive or automated segmentation algorithm.
+191-0065|There is a lot of work on data fusion that can inform intra operatively,|There is a lot of work on data fusion that can inform intra operatively,
+191-0066|Where to place instruments and implants optimally, so that is a lot about image registration.|Where to place instruments and implants optimally, so that is a lot about image registration.
+191-0067|And then there is a different line of work,|And then there is a different line of work,
+191-0068|That tries to perform activity recognition, skill recognition during surgery,|That tries to perform activity recognition, skill recognition during surgery,
+191-0069|It is important both for the education and the training of new surgeons and residents,|It is important both for the education and the training of new surgeons and residents,
+191-0070|But it can also be important in order to give feedback immediately during the surgery, and actively assist the surgeon in the activities that they are performing.|But it can also be important in order to give feedback immediately during the surgery, and actively assist the surgeon in the  activities that they are performing.
+191-0071|All of these are very interesting topics of research,|All of these are very interesting topics of research,
+191-0072|All the way from public health and wellness,|All the way from public health and wellness,
+191-0073|To actually trying to help and guide treatment, interventionally.|To actually trying to help and guide treatment, interventionally.
+233-0001|We have now just talked about human AI interaction and,|We have now just talked about human AI interaction and,
+233-0002|synergistically using the power of ay eye and machine learning and the power of humans to build systems that are collaborative.|synergistically using the power of ay eye and machine learning and the power of humans to build systems that are collaborative.
+233-0003|But what this means is that we are going to move ay eye and deep learning research out of the benign environment of academic exercise.|But what this means is that we are going to move ay eye and deep learning research out of the benign environment of academic exercise.
+233-0004|Making a transition into impacting people's lives with this type of Technology.|Making a transition into impacting people's lives with this type of Technology.
+233-0005|How good is my algorithm going to compete against other methods on that specific tasks for example image classification?|How good is my algorithm going to compete against other methods on that specific tasks for example image classification?
+233-0006|But now we are thinking about something that is a little bit different.|But now we are thinking about something that is a little bit different.
+233-0007|Cause we are thinking about the question of how can I impact users.|Cause we are thinking about the question of how can I impact users
+233-0008|How can I have an impact of benefit to society?|How can I have an impact of benefit to society?
+233-0009|and to humankind in general|and to humankind in general
+233-0010|when we think about this| when we think about this
+233-0011|at least when some people think about this|at least when some people think about this
+233-0012|Should we be afraid of something?|Should we be afraid of something?
+233-0013|Yes, what should we be afraid of?|Yes, what should we be afraid of?
+233-0014|Old sorcerer has vanished and for once has gone to waste|Old sorcerer has vanished and for once has gone to waste
+233-0015|Spirits called by him now banished|Spirits called by him now banished
+233-0016|Do you recognize this? This is from the sorcerer’s apprentice.|Do you recognize this? This is from the sorcerer’s apprentice.
+233-0017|Not going to be more specific on how I think this relates to what we will be talking about| Not going to be more specific on how I think this relates to what we will be talking about
+233-0018|But I hope that you will be able to make some connections.|But I hope that you will be able to make some connections.
+233-0019|Here are a quick overview of the overarching problems that we need to be thinking about.|Here are a quick overview of the overarching problems that we need to be thinking about.
+233-0020|We are going to use and develop ay eye and deep learning systems that affect people's lives.|We are going to use and develop ay eye and deep learning systems that affect people's lives.
+233-0021|The first challenge that we need to think about are problem formulation.|The first challenge that we need to think about are problem formulation.
+233-0022|We need to understand that algorithms particularly in an industry and commercialization setting are designed and deployed with certain goals in mind.|We need to understand that algorithms particularly in an industry and commercialization setting are designed and deployed with certain goals in mind.
+233-0023|Companies may need to hit their production milestones. They need to have certain revenue goals. They have all sorts of different things.|Companies may need to hit their production milestones. They need to have certain revenue goals. They have all sorts of different things.
+233-0024|And when they develop an algorithm when they then they when they decide to deploy deployed algorithm, they really deployed in order to achieve or make progress towards some of these goals.|And when they develop an algorithm when they then they when they decide to deploy deployed algorithm, they really deployed in order to achieve or make progress towards some of these goals.
+233-0025|So the allegedly innocent accuracy that we usually report specificity or sensitivity or what have you can actually refer|So the allegedly innocent accuracy that we usually report specificity or sensitivity or what have you can actually refer
+233-0026|To give you an example of what I mean when I say that is one example, consider a bank|To give you an example of what I mean when I say that is one example, consider a bank
+233-0027|We would like to automate the process of assessing an applicant’s credit worthiness for a credit.|We would like to automate the process of assessing an applicant’s credit worthiness for a credit.
+233-0028|Now the problem with credit worthiness is that it is a bit of a nebulous concept. It's a little unclear on what should go and what shouldn't go into a credit worthiness score.| Now the problem with credit worthiness is that it is a bit of a nebulous concept. It's a little unclear on what should go and what shouldn't go into a credit worthiness score.
+233-0029|So in order to solve this problem one way of addressing this would be to redefine the problem that is actually|So in order to solve this problem one way of addressing this would be to redefine the problem that is actually
+233-0030|Actually soft as a surrogate or as a proxy to come up with credit worthiness|Actually soft as a surrogate or as a proxy to come up with credit worthiness
+233-0031|One way of doing this for example, would be to say. Eell. I want to define a metric the classifieds applicants for loans.|One way of doing this for example, would be to say. Eell. I want to define a metric the classifieds applicants for loans.
+233-0032|Such that given a certain time span, I can maximize my profit margin.|Such that given a certain time span, I can maximize my profit margin.
+233-0033|Or I can maximize the number of loans that are being repaid|Or I can maximize the number of loans that are being repaid
+233-0034|Hmm and I don't have to foreclose for example house|Hmm and I don't have to foreclose for example house
+233-0035|Right? This is something that can be optimized.|Right? This is something that can be optimized.
+233-0036|But the problem is that if this optimization problems then it's solved completely in an unconstrained way.|But the problem is that if this optimization problems then it's solved completely in an unconstrained way.
+233-0037|Then the algorithm may discover certain behavior. That for example is discriminatory or predatory.|Then the algorithm may discover certain behavior. That certain example is discriminatory or predatory.
+233-0038|And you can see how this is potentially problematic and requires very well-thought-out practices to avoid this type of behavior.|And you can see how this is potentially problematic and requires very well-thought-out practices to avoid this type of behavior.
+233-0039|Who is going to enforce that the auditing of these algorithms? That's a good question and maybe there is a bit of an answer at the end of the session.|Who is going to enforce that the auditing of these algorithms? That's a good question and maybe there is a bit of an answer at the end of the session.
+233-0040|How we collect data and what data we collect|How we collect data and what data we collect
+233-0041|that the data that we collect maybe unrepresentative of reality or the data is required by historic processes that for example are already biased.|that the data that we collect maybe unrepresentative of reality or the data is required by historic processes that for example are already biased.
+233-0042|Now, for unrepresentative data, this means that we are curating a training set of our algorithm and that training set that we use to develop is unrepresentative of the target population.|Now, for unrepresentative data, this means that we are curating a training set of our algorithm and that training set that we use to develop is unrepresentative of the target population.
+233-0043|For most of you this shouldn't be new we have already talked about some of these examples of the deep learning for healthcare class.|For most of you this shouldn't be new we have already talked about some of these examples of the deep learning for healthcare class.
+233-0044|Gives you a dataset that potentially is unrepresentative of the target population that the algorithm would later be run on.|Gives you a dataset that potentially is unrepresentative of the target population that the algorithm would later be run on.
+233-0045|A very interesting algorithm that does something that is exciting.|A very interesting algorithm that does something that is exciting.
+233-0046|that, if downsample looks very similar to the images to the image that is being provided and the pixelated version|that, if downsample looks very similar to the images to the image that is being provided and the pixelated version
+233-0047|It particularly gained a lot of attention because when the algorithm was fed, the pixelated image that you can see here on the bottom right|It particularly gained a lot of attention because when the algorithm was fed, the pixelated image that you can see here on the bottom right
+233-0048|When presented with this image the algorithm would reconstruct the high high resolution version of this image that looks like this|When presented with this image the algorithm would reconstruct the high high resolution version of this image that looks like this
+233-0049|And you could probably argue that this does not look anything like Barack Obama|And you could probably argue that this does not look anything like Barack Obama
+233-0050|Another example that has gained quite a bit of attention is the Google photos feature that creates automatically albums for you|Another example that has gained quite a bit of attention is the Google photos feature that creates automatically albums for you
+233-0051|Because it is highly racist. It is highly discriminatory and it affects people negatively in their everyday life.|Because it is highly racist. It is highly discriminatory and it affects people negatively in their everyday life.
+233-0052|So we need to think strongly about how are we going to solve these problems going forward.|So we need to think strongly about how are we going to solve these problems going forward.
+233-0053|Then we probably need to create dataset that are fair.|Then we probably need to create dataset that are fair.
+233-0054|But the thing to realize is that also fair datasets can potentially result in algorithms that are anything but fair.|But the thing to realize is that also fair datasets can potentially result in algorithms that are anything but fair.
+233-0055|Imagine a data set that is shows the faces because we have talked about faces in these two examples.|Imagine a data set that is shows the faces because we have talked about faces in these two examples.
+233-0056|Included in this dataset, they accurately capture the demographics of, say, German| Included in this dataset, they accurately capture the demographics of, say, German
+233-0057|Okay, you can see the population the demographics of Germany in 2017 in the right hand side here.|Okay, you can see the population the demographics of Germany in 2017 in the right hand side here.
+233-0058|Its certainly representative right? Because it is created exactly based on the population of the demographics that we find in Germany.|Its certainly representative right? Because it is created exactly based on the population of the demographics that we find in Germany.
+233-0059|but as you can see on the right hand side, the demographics in Germany is predominantly Germans, which are Caucasians, which means there are lights and white skin|but as you can see on the right hand side, the demographics in Germany is predominantly Germans, which are Caucasians, which means there are lights and white skin
+233-0060|So people of color and potentially other nationalities are heavily underrepresented in that specific dateset.|So people of color and potentially other nationalities are heavily underrepresented in that specific dateset.
+233-0061|It would mean that an algorithm trained on this dataset is trained on a fair dataset.|It would mean that an algorithm trained on this dataset is trained on a fair dataset.
+233-0062|So then so then maybe we should just get all the data right? Let's just acquire all the data.|So then so then maybe we should just get all the data right? Let's just acquire all the data.
+233-0063|Maybe that's not the right answer either. This has in fact has been shown to be very problematic.|Maybe that's not the right answer either. This has in fact has been shown to be very problematic.
+233-0064|The problems arise from these automated ways how the images are sourced for example using large scale Google image search.|The problems arise from these automated ways how the images are sourced for example using large scale Google image search.
+233-0065|Which is the data set that we’ve all been using for a very long time.|Which is the data set that we’ve all been using for a very long time.
+233-0066|Even if you find other ways of acquiring data some of the data that you actually acquire and in fact some of the problems that we have just seen with this large curation large and automated curation of visual datasets.|Even if you find other ways of acquiring data some of the data that you actually acquire and in fact some of the problems that we have just seen with this large curation large and automated curation of visual datasets.
+233-0067|Results from the problems that there are biases and how the data that are then being source and then being mined|Results from the problems that there are biases and how the data that are then being source and then being mined
+233-0068|Right? Because of data that has been generated that is available now has been generated using historic processes.| Right? Because of data that has been generated that is available now has been generated using historic processes.
+233-0069|And the historic processes that generated this data may not have been ideal.|And the historic processes that generated this data may not have been ideal.
+233-0070|The algorithm trained on those datasets would then obviously also exhibit exactly those biases and prejudice.|The algorithm trained on those datasets would then obviously also exhibit exactly those biases and prejudice.
+233-0071|So the example that I'm going to give you here is a very famous one, which is the algorithm developed by Amazon. It’s not used any longer because of the problems that we are discussing.|So the example that I'm going to give you here is a very famous one, which is the algorithm developed by Amazon. It’s not used any longer because of the problems that we are discussing.
+233-0072|You would like to retrieve the most promising applicants in order to make for example automated hiring decisions.|You would like to retrieve the most promising applicants in order to make for example automated hiring decisions.
+233-0073|But there is a whole lot of problems right? Because of dataset that you're basing this on is a dataset that has all the resumes that applied to Amazon.|But there is a whole lot of problems right? Because of dataset that you're basing this on is a dataset that has all the resumes that applied to Amazon.
+233-0074|The positive cases that you can use in order to train your algorithm, the people that came to Amazon and actually stayed there, are only the people that can currently deal with it.|The positive cases that you can use in order to train your algorithm, the people that came to Amazon and actually stayed there, are only the people that can currently deal with it.
+233-0075|those are the people that somehow cleared the interview process.|those are the people that somehow cleared the interview process.
+233-0076|and if that recruitment process is biased then there is no way that you will see cases that could have done well, but they were not selected|and if that recruitment process is biased then there is no way that you will see cases that could have done well, but they were not selected
+233-0077|Right? It's not it's not like the country is run by a whole lot of racists.|Right? It's not it's not like the country is run by a whole lot of racists.
+233-0078|The way how is things are structured is essentially based on this historic system that is not perfect|The way how is things are structured is essentially based on this historic system that is not perfect.
+234-0000|Switching gears a little bit, we have talked a lot about|Switching gears a little bit, we have talked a lot about
+234-0001|human ay eye interaction and the impact that|human ay eye interaction and the impact that
+234-0002|the ay eye system may have on humans and how this may be|the ay eye system may have on humans and how this may be
+234-0003|exploitatory and discriminatory and how we need to think about not|exploitatory and discriminatory and how we need to think about not
+234-0004|Now we're going to think about something slightly different, which is potentially is with human ay eye interaction but potentatially al also|Now we're going to think about something slightly different, which is potentially is with human ay eye interaction but potentatially al also
+234-0005|which can be okay in this context, and the context is using ay eye for good|which can be okay in this context, and the context is using ay eye for good
+234-0006|the question that we're trying to address here and talk a little bit about it is, whether or not we can use and how we can use ay eye in machine learning|the question that we're trying to address here and talk a little bit about it is, whether or not we can use and how we can use ay eye in machine learning
+234-0007|to solve society's biggest challenges|to solve society's biggest challenges
+234-0008|An algorithm is really just an opinion embedded in math and we can decide what option we want to embed in this algorithm, right?|An algorithm is really just an opinion embedded in math and we can decide what option we want to embed in this algorithm, right?
+234-0009|So maybe we can embed alturistic opinions and solve some of society's biggest challenges!|So maybe we can embed alturistic opinions and solve some of society's biggest challenges!
+234-0010|Wouldn't that be exciting? I think it would.|Wouldn't that be exciting? I think it would.
+234-0011|to really improve, some of society's biggest challenges.|to really improve, some of society's biggest challenges.
+234-0012|The first project here that I wanna talk about|The first project here that I wanna talk about
+234-0013|By narrowing the range of estimates of the size of land available for reforestation,|By narrowing the range of estimates of the size of land available for reforestation,
+234-0014|We are not very nice to the rainforests and see oh two generation is a problem, so they are using essentially|We are not very nice to the rainforests and see oh two generation is a problem, so they are using essentially
+234-0015|To properly estimate where we could effectively reforest|To properly estimate where we could effectively reforest
+234-0016|Another example I briefly  wanted to talk about is this one right here, that is essentially tries to generate|Another example I briefly  wanted to talk about is this one right here, that is essentially tries to generate
+234-0017|a highest plastic concentration, so that we can deploy|a highest plastic concentration, so that we can deploy
+234-0018|Another project, here, tries to build a product that would aid in the prediction of potential accident-prone areas|Another project, here, tries to build a product that would aid in the prediction of potential accident-prone areas
+234-0019|And I can definitely tell you that something like this in Baltimore would be very useful and would very likely highlight some part|And I can definitely tell you that something like this in Baltimore would be very useful and would very likely highlight some part
+234-0020|There are multiple efforts that are happening on the corperate level, on the institutional and societal level|There are multiple efforts that are happening on the corperate level, on the institutional and societal level
+234-0021|try to improve and try to promote the use of artificial intelligence, machine learning, and deep learning for the greater good|try to improve and try to promote the use of artificial intelligence, machine learning, and deep learning for the greater good
+234-0022|That provide resources for labeling grants, so that large amounts of datasets can be labeled|That provide resources for labeling grants, so that large amounts of datasets can be labeled
+234-0023|Get access to the higher level of compute that you may need to solve the problem that you're interested in.|Get access to the higher level of compute that you may need to solve the problem that you're interested in.
+234-0024|I have previously offered, and I'm offering it again,|I have previously offered, and I'm offering it again,
+234-0025|Using this technology for the greater good is really a very important thing.|Using this technology for the greater good is really a very important thing.
+234-0026|If you think about ay eye for good, then one thing to think about as well is, think about the sustainable development goals that have been set out by the United Nations|If you think about ay eye for good, then one thing to think about as well is, think about the sustainable development goals that have been set out by the United Nations
+234-0027|that allow you to provide some framework for what the large social challenges are that we need to be dealing with in the next couple of years in order to provoke|that allow you to provide some framework for what the large social challenges are that we need to be dealing with in the next couple of years in order to provoke
+234-0028|and they include no poverty, zero hunger, good health and well-being|and they include no poverty, zero hunger, good health and well-being
+234-0029|which are all goals that I'm very sure, uh, we all can get behind.|which are all goals that I'm very sure, uh, we all can get behind.
+234-0030|I think it's certainly one of the better things to var feel very strongly about because|I think it's certainly one of the better things to var feel very strongly about because
+235-0000|As the last subchapter of today's lecture, I want to very briefy talk about the environmental impact|As the last subchapter of today's lecture, I want to very briefy talk about the environmental impact
+235-0001|why, thinking about ay eye for good, particularly thinking about using ay eye and so on for reforestation and reducing the see oh footprint is probably not a bad idea.|why, thinking about ay eye for good, particularly thinking about using ay eye and so on for reforestation and reducing the see oh footprint is probably not a bad idea.
+235-0002|There are a couple of rather frightening headlines around that in twenty-twenty due to covid,|There are a couple of rather frightening headlines around that in twenty-twenty due to covid,
+235-0003|are not as prominent as they were before, but rest assured they will become just as pressing, just as urgent, and just as uncomfortable|are not as prominent as they were before, but rest assured they will become just as pressing, just as urgent, and just as uncomfortable
+235-0004|Because major climate reports describe this very strong risk of crisis|Because major climate reports describe this very strong risk of crisis
+235-0005|Due to, you know, climate change as early as twenty forty.|Due to, you know, climate change as early as twenty forty.
+235-0006|and there is a scientific consensus that indeed the earth's climate is warming and that's it's humans that can be attributed.|and there is a scientific consensus that indeed the earth's climate is warming and that's it's humans that can be attributed.
+235-0007|Now, you probably know is that we all contribute to climate change, every single one of us|Now, you probably know is that we all contribute to climate change, every single one of us
+235-0008|So how are we producing carbon emissions? Well so, for example, air travel produces carbon emissions. Simple human life produces carbon emissions because we happen to breathe|So how are we producing carbon emissions? Well so, for example, air travel produces carbon emissions. Simple human life produces carbon emissions because we happen to breathe
+235-0009|right? And you can that some of the major industrial uh nations, China, Germany, and United States also produce a substantial amount of see oh two.|right? And you can that some of the major industrial uh nations, China, Germany, and United States also produce a substantial amount of see oh two.
+235-0010|So why are we talking about this? In this context of deep learning|So why are we talking about this? In this context of deep learning
+235-0011|A computer, that we use, to train neural network, requires electricity.|A computer, that we use, to train neural network, requires electricity.
+235-0012|and the computer that we use to train a neural network requires electricity.|and the computer that we use to train a neural network requires electricity.
+235-0013|More computers require more electricity. So what you can see here is that the recent advances that we saw|More computers require more electricity. So what you can see here is that the recent advances that we saw
+235-0014|This system then acquired four thousand uh forty five thousand years of dota self play over ten real time months, right? That is a craaazy amount of data crunching.|This system then acquired four thousand uh forty five thousand years of dota self play over ten real time months, right? That is a craaazy amount of data crunching.
+235-0015|The first model gee pee tee one paired with more data sourced from reddit and much much much much much more compute.|The first model gee pee tee one paired with more data sourced from reddit and much much much much much more compute.
+235-0016|So, again, we all contribute to climate change, training deep neural networks|So, again, we all contribute to climate change, training deep neural networks
+235-0017|and, we need to cut, the carbon footprint.|and, we need to cut, the carbon footprint.
+235-0018|Now what you can see here are estimates of how much carbon a specific architecture|Now what you can see here are estimates of how much carbon a specific architecture
+235-0019|When we also tune the parameters of this network and experiment a little, it's somewhere at the order of eighty thousand.|When we also tune the parameters of this network and experiment a little, it's somewhere at the order of eighty thousand.
+235-0020|This crazy number right here, uh more than six hundred thousand pounds of carbon estimates|This crazy number right here, uh more than six hundred thousand pounds of carbon estimates
+235-0021|Here you can see something that also lists the prices|Here you can see something that also lists the prices
+235-0022|your paper to understand whether the model actually is compatible with the available resources that they have at their system so that they don't train their model a couple of times to only understand that this will never work|your paper to understand whether the model actually is compatible with the available resources that they have at their system so that they don't train their model a couple of times to only understand that this will never work
+235-0023|and also to provide standardized measurements such as the time to convergence in gigaflops|and also to provide standardized measurements such as the time to convergence in gigaflops
+235-0024|the sensitivity to hyper parameters for example the variance and the output of the model to just give people a feeling for whether or not this is a good investment|the sensitivity to hyper parameters for example the variance and the output of the model to just give people a feeling for whether or not this is a good investment
+235-0025|These recent models that achieve state of the art performance in playing dota, in language modeling|These recent models that achieve state of the art performance in playing dota, in language modeling
+235-0026|that in some of the areas that we are observing here, the rich get richer and this is also in the context of federal funding simply because you can demonstrate|that in some of the areas that we are observing here, the rich get richer and this is also in the context of federal funding simply because you can demonstrate
+235-0027|but what is more important than all of these things is that we need to prioritize the development of computationally efficient hardware and algorithms which is probably more in our computer scientist's|but what is more important than all of these things is that we need to prioritize the development of computationally efficient hardware and algorithms which is probably more in our computer scientist's
+235-0028|they must be tightly integrated into the popular framework that everyone uses because if they are not integrated if they are somehow some exotic method that someone has published|they must be tightly integrated into the popular framework that everyone uses because if they are not integrated if they are somehow some exotic method that someone has published
+235-0029|quick prototyping, right? So integrating this tightly into the frameworks that everyone AT SCALE uses is one of the best ways forward to make an impact|quick prototyping, right? So integrating this tightly into the frameworks that everyone AT SCALE uses is one of the best ways forward to make an impact
+235-0030|this is the end of today's class on human centered ay eye and ay eye's impact on the environment|this is the end of today's class on human centered ay eye and ay eye's impact on the environment
+235-0031|If you have questions I think these are certainly topics that are very worthwhile discussing please submit them|If you have questions I think these are certainly topics that are very worthwhile discussing please submit them.
+MA01_01|The birch canoe slid on the smooth planks.|The birch canoe slid on the smooth planks.
+MA01_02|Glue the sheet to the dark blue background.|Glue the sheet to the dark blue background.
+MA01_03|It's easy to tell the depth of a well.|It's easy to tell the depth of a well.
+MA01_04|These days a chicken leg is a rare dish.|These days a chicken leg is a rare dish.
+MA01_05|Rice is often served in round bowls.|Rice is often served in round bowls.
+MA01_06|The juice of lemons makes fine punch.|The juice of lemons makes fine punch.
+MA01_07|The box was thrown beside the parked truck.|The box was thrown beside the parked truck.
+MA01_08|The hogs were fed chopped corn and garbage.|The hogs were fed chopped corn and garbage.
+MA01_09|Four hours of steady work faced us.|Four hours of steady work faced us.
+MA01_10|A large size in stockings is hard to sell.|A large size in stockings is hard to sell.
+MA02_01|The boy was there when the sun rose.|The boy was there when the sun rose.
+MA02_02|A rod is used to catch pink salmon. |A rod is used to catch pink salmon. 
+MA02_03|The source of the huge river is the clear spring.|The source of the huge river is the clear spring.
+MA02_04|Kick the ball straight and follow through.|Kick the ball straight and follow through.
+MA02_05|Help the woman get back to her feet.|Help the woman get back to her feet.
+MA02_06|A pot of tea helps to pass the evening.|A pot of tea helps to pass the evening.
+MA02_07|Smoky fires lack flame and heat.|Smoky fires lack flame and heat.
+MA02_08|The soft cushion broke the man's fall.|The soft cushion broke the man's fall.
+MA02_09|The salt breeze came across from the sea.|The salt breeze came across from the sea.
+MA02_10|The girl at the booth sold fifty bonds.|The girl at the booth sold fifty bonds.
+MA03_01|The small pup gnawed a hole in the sock.|The small pup gnawed a hole in the sock.
+MA03_02|The fish twisted and turned on the bent hook.|The fish twisted and turned on the bent hook.
+MA03_03|Press the pants and sew a button on the vest.|Press the pants and sew a button on the vest.
+MA03_04|The swan dive was far short of perfect.|The swan dive was far short of perfect.
+MA03_05|The beauty of the view stunned the young boy.|The beauty of the view stunned the young boy.
+MA03_06|Two blue fish swam in the tank.|Two blue fish swam in the tank.
+MA03_07|Her purse was full of useless trash.|Her purse was full of useless trash.
+MA03_08|The colt reared and threw the tall rider.|The colt reared and threw the tall rider.
+MA03_09|It snowed, rained, and hailed the same morning.|It snowed, rained, and hailed the same morning.
+MA03_10|Read verse out loud for pleasure.|Read verse out loud for pleasure.
+MA04_01|Hoist the load to your left shoulder.|Hoist the load to your left shoulder.
+MA04_02|Take the winding path to reach the lake.|Take the winding path to reach the lake.
+MA04_03|Note closely the size of the gas tank.|Note closely the size of the gas tank.
+MA04_04|Wipe the grease off his dirty face.|Wipe the grease off his dirty face.
+MA04_05|Mend the coat before you go out.|Mend the coat before you go out.
+MA04_06|The wrist was badly strained and hung limp.|The wrist was badly strained and hung limp.
+MA04_07|The stray cat gave birth to kittens.|The stray cat gave birth to kittens.
+MA04_08|The young girl gave no clear response.|The young girl gave no clear response.
+MA04_09|The meal was cooked before the bell rang.|The meal was cooked before the bell rang.
+MA04_10|What joy there is in living.|What joy there is in living.
+MA05_01|A king ruled the state in the early days.|A king ruled the state in the early days.
+MA05_02|The ship was torn apart on the sharp reef.|The ship was torn apart on the sharp reef.
+MA05_03|Sickness kept him home the third week.|Sickness kept him home the third week.
+MA05_04|The wide road shimmered in the hot sun.|The wide road shimmered in the hot sun.
+MA05_05|The lazy cow lay in the cool grass.|The lazy cow lay in the cool grass.
+MA05_06|Lift the square stone over the fence.|Lift the square stone over the fence.
+MA05_07|The rope will bind the seven books at once.|The rope will bind the seven books at once.
+MA05_08|Hop over the fence and plunge in.|Hop over the fence and plunge in.
+MA05_09|The friendly gang left the drug store.|The friendly gang left the drug store.
+MA05_10|Mesh wire keeps chicks inside.|Mesh wire keeps chicks inside.
+MA06_01|The frost air passed through the coat.|The frost air passed through the coat.
+MA06_02|The crooked maze failed to fool the mouse.|The crooked maze failed to fool the mouse.
+MA06_03|Adding fast leads to wrong sums.|Adding fast leads to wrong sums.
+MA06_04|The show was a flop from the very start.|The show was a flop from the very start.
+MA06_05|A saw is a tool used for making boards.|A saw is a tool used for making boards.
+MA06_06|The wagon moved on well oiled wheels.|The wagon moved on well oiled wheels.
+MA06_07|March the soldiers past the next hill.|March the soldiers past the next hill.
+MA06_08|A cup of sugar makes sweet fudge.|A cup of sugar makes sweet fudge.
+MA06_09|Place a rosebush near the porch steps.|Place a rosebush near the porch steps.
+MA06_10|Both lost their lives in the raging storm.|Both lost their lives in the raging storm.
+MB07_01|We talked of the side show in the circus.|We talked of the side show in the circus.
+MB07_02|Use a pencil to write the first draft.|Use a pencil to write the first draft.
+MB07_03|He ran half way to the hardware store.|He ran half way to the hardware store.
+MB07_04|The clock struck to mark the third period.|The clock struck to mark the third period.
+MB07_05|A small creek cut across the field.|A small creek cut across the field.
+MB07_06|Cars and busses stalled in snow drifts.|Cars and busses stalled in snow drifts.
+MB07_07|The set of china hit the floor with a crash.|The set of china hit the floor with a crash.
+MB07_08|This is a grand season for hikes on the road.|This is a grand season for hikes on the road.
+MB07_09|The dune rose from the edge of the water.|The dune rose from the edge of the water.
+MB07_10|Those words were the cue for the actor to leave.|Those words were the cue for the actor to leave.
+MB08_01|A yacht slid around the point into the bay.|A yacht slid around the point into the bay.
+MB08_02|The two met while playing on the sand.|The two met while playing on the sand.
+MB08_03|The ink stain dried on the finished page.|The ink stain dried on the finished page.
+MB08_04|The walled town was seized without a fight.|The walled town was seized without a fight.
+MB08_05|The lease ran out in sixteen weeks.|The lease ran out in sixteen weeks.
+MB08_06|A tame squirrel makes a nice pet.|A tame squirrel makes a nice pet.
+MB08_07|The horn of the car woke the sleeping cop.|The horn of the car woke the sleeping cop.
+MB08_08|The heart beat strongly and with firm strokes.|The heart beat strongly and with firm strokes.
+MB08_09|The pearl was worn in a thin silver ring.|The pearl was worn in a thin silver ring.
+MB08_10|The fruit peel was cut in thick slices.|The fruit peel was cut in thick slices.
+MB09_01|The Navy attacked the big task force.|The Navy attacked the big task force.
+MB09_02|See the cat glaring at the scared mouse.|See the cat glaring at the scared mouse.
+MB09_03|There are more than two factors here.|There are more than two factors here.
+MB09_04|The hat brim was wide and too droopy.|The hat brim was wide and too droopy.
+MB09_05|The lawyer tried to lose his case.|The lawyer tried to lose his case.
+MB09_06|The grass curled around the fence post.|The grass curled around the fence post.
+MB09_07|Cut the pie into large parts.|Cut the pie into large parts.
+MB09_08|Men strive but seldom get rich.|Men strive but seldom get rich.
+MB09_09|Always close the barn door tight.|Always close the barn door tight.
+MB09_10|He lay prone and hardly moved a limb.|He lay prone and hardly moved a limb.
+MB10_01|The slush lay deep along the street.|The slush lay deep along the street.
+MB10_02|A wisp of cloud hung in the blue air.|A wisp of cloud hung in the blue air.
+MB10_03|A pound of sugar costs more than eggs.|A pound of sugar costs more than eggs.
+MB10_04|The fin was sharp and cut the clear water.|The fin was sharp and cut the clear water.
+MB10_05|The play seems dull and quite stupid.|The play seems dull and quite stupid.
+MB10_06|Bail the boat to stop it from sinking.|Bail the boat to stop it from sinking.
+MB10_07|The term ended in late June that year.|The term ended in late June that year.
+MB10_08|A tusk is used to make costly gifts.|A tusk is used to make costly gifts.
+MB10_09|Ten pins were set in order.|Ten pins were set in order.
+MB10_10|The bill was paid every third week.|The bill was paid every third week.
+MB11_01|Oak is strong and also gives shade.|Oak is strong and also gives shade.
+MB11_02|Cats and dogs each hate the other.|Cats and dogs each hate the other.
+MB11_03|The pipe began to rust while new.|The pipe began to rust while new.
+MB11_04|Open the crate but don't break the glass.|Open the crate but don't break the glass.
+MB11_05|Add the sum to the product of these three.|Add the sum to the product of these three.
+MB11_06|Thieves who rob friends deserve jail.|Thieves who rob friends deserve jail.
+MB11_07|The ripe taste of cheese improves with age.|The ripe taste of cheese improves with age.
+MB11_08|Act on these orders with great speed.|Act on these orders with great speed.
+MB11_09|The hog crawled under the high fence.|The hog crawled under the high fence.
+MB11_10|Move the vat over the hot fire.|Move the vat over the hot fire.
+MB12_01|The bark of the pine tree was shiny and dark.|The bark of the pine tree was shiny and dark.
+MB12_02|Leaves turn brown and yellow in the fall.|Leaves turn brown and yellow in the fall.
+MB12_03|The pennant waved when the wind blew.|The pennant waved when the wind blew.
+MB12_04|Split the log with a quick, sharp blow.|Split the log with a quick, sharp blow.
+MB12_05|Burn peat after the logs give out.|Burn peat after the logs give out.
+MB12_06|He ordered peach pie with ice cream.|He ordered peach pie with ice cream.
+MB12_07|Weave the carpet on the right hand side.|Weave the carpet on the right hand side.
+MB12_08|Hemp is a weed found in parts of the tropics.|Hemp is a weed found in parts of the tropics.
+MB12_09|A lame back kept his score low.|A lame back kept his score low.
+MB12_10|We find joy in the simplest things.|We find joy in the simplest things.
+MC13_01|Type out three lists of orders.|Type out three lists of orders.
+MC13_02|The harder he tried the less he got done.|The harder he tried the less he got done.
+MC13_03|The boss ran the show with a watchful eye.|The boss ran the show with a watchful eye.
+MC13_04|The cup cracked and spilled its contents.|The cup cracked and spilled its contents.
+MC13_05|Paste can cleanse the most dirty brass.|Paste can cleanse the most dirty brass.
+MC13_06|The slang word for raw whiskey is booze.|The slang word for raw whiskey is booze.
+MC13_07|It caught its hind paw in a rusty trap.|It caught its hind paw in a rusty trap.
+MC13_08|The wharf could be seen at the farther shore.|The wharf could be seen at the farther shore.
+MC13_09|Feel the heat of the weak dying flame.|Feel the heat of the weak dying flame.
+MC13_10|The tiny girl took off her hat.|The tiny girl took off her hat.
+MC14_01|A cramp is no small danger on a swim.|A cramp is no small danger on a swim.
+MC14_02|He said the same phrase thirty times.|He said the same phrase thirty times.
+MC14_03|Pluck the bright rose without leaves.|Pluck the bright rose without leaves.
+MC14_04|Two plus seven is less than ten.|Two plus seven is less than ten.
+MC14_05|The glow deepened in the eyes of the sweet girl.|The glow deepened in the eyes of the sweet girl.
+MC14_06|Bring your problems to the wise chief.|Bring your problems to the wise chief.
+MC14_07|Write a fond note to the friend you cherish.|Write a fond note to the friend you cherish.
+MC14_08|Clothes and lodging are free to new men.|Clothes and lodging are free to new men.
+MC14_09|We frown when events take a bad turn.|We frown when events take a bad turn.
+MC14_10|Port is a strong wine with a smoky taste.|Port is a strong wine with a smoky taste.
+MC15_01|The young kid jumped the rusty gate.|The young kid jumped the rusty gate.
+MC15_02|Guess the results from the first scores.|Guess the results from the first scores.
+MC15_03|A salt pickle tastes fine with ham.|A salt pickle tastes fine with ham.
+MC15_04|The just claim got the right verdict.|The just claim got the right verdict.
+MC15_05|These thistles bend in a high wind.|These thistles bend in a high wind.
+MC15_06|Pure bred poodles have curls.|Pure bred poodles have curls.
+MC15_07|The tree top waved in a graceful way.|The tree top waved in a graceful way.
+MC15_08|The spot on the blotter was made by green ink.|The spot on the blotter was made by green ink.
+MC15_09|Mud was spattered on the front of his white shirt.|Mud was spattered on the front of his white shirt.
+MC15_10|The cigar burned a hole in the desk top.|The cigar burned a hole in the desk top.
+MC16_01|The empty flask stood on the tin tray.|The empty flask stood on the tin tray.
+MC16_02|A speedy man can beat this track mark.|A speedy man can beat this track mark.
+MC16_03|He broke a new shoelace that day.|He broke a new shoelace that day.
+MC16_04|The coffee stand is too high for the couch.|The coffee stand is too high for the couch.
+MC16_05|The urge to write short stories is rare.|The urge to write short stories is rare.
+MC16_06|The pencils have all been used.|The pencils have all been used.
+MC16_07|The pirates seized the crew of the lost ship.|The pirates seized the crew of the lost ship.
+MC16_08|We tried to replace the coin but failed.|We tried to replace the coin but failed.
+MC16_09|She sewed the torn coat quite neatly.|She sewed the torn coat quite neatly.
+MC16_10|The sofa cushion is red and of light weight.|The sofa cushion is red and of light weight.
+MC17_01|The jacket hung on the back of the wide chair.|The jacket hung on the back of the wide chair.
+MC17_02|At that high level the air is pure.|At that high level the air is pure.
+MC17_03|Drop the two when you add the figures.|Drop the two when you add the figures.
+MC17_04|A filing case is now hard to buy.|A filing case is now hard to buy.
+MC17_05|An abrupt start does not win the prize.|An abrupt start does not win the prize.
+MC17_06|Wood is best for making toys and blocks.|Wood is best for making toys and blocks.
+MC17_07|The office paint was a dull, sad tan.|The office paint was a dull, sad tan.
+MC17_08|He knew the skill of the great young actress.|He knew the skill of the great young actress.
+MC17_09|A rag will soak up spilled water.|A rag will soak up spilled water.
+MC17_10|A shower of dirt fell from the hot pipes.|A shower of dirt fell from the hot pipes.
+MC18_01|Steam hissed from the broken valve.|Steam hissed from the broken valve.
+MC18_02|The child almost hurt the small dog.|The child almost hurt the small dog.
+MC18_03|There was a sound of dry leaves outside.|There was a sound of dry leaves outside.
+MC18_04|The sky that morning was clear and bright blue.|The sky that morning was clear and bright blue.
+MC18_05|Torn scraps littered the stone floor.|Torn scraps littered the stone floor.
+MC18_06|Sunday is the best part of the week.|Sunday is the best part of the week.
+MC18_07|The doctor cured him with these pills.|The doctor cured him with these pills.
+MC18_08|The new girl was fired today at noon.|The new girl was fired today at noon.
+MC18_09|They felt gay when the ship arrived in port.|They felt gay when the ship arrived in port.
+MC18_10|Add the store's account to the last cent.|Add the store's account to the last cent.
+MD19_01|Acid burns holes in wool cloth.|Acid burns holes in wool cloth.
+MD19_02|Fairy tales should be fun to write.|Fairy tales should be fun to write.
+MD19_03|Eight miles of woodland burned to waste.|Eight miles of woodland burned to waste.
+MD19_04|The third act was dull and tired the players.|The third act was dull and tired the players.
+MD19_05|A young child should not suffer fright.|A young child should not suffer fright.
+MD19_06|Add the column and put the sum here.|Add the column and put the sum here.
+MD19_07|We admire and love a good cook.|We admire and love a good cook.
+MD19_08|There the flood mark is ten inches.|There the flood mark is ten inches.
+MD19_09|He carved a head from the round block of marble.|He carved a head from the round block of marble.
+MD19_10|She has a smart way of wearing clothes.|She has a smart way of wearing clothes.
+MD20_01|The fruit of a fig tree is apple-shaped.|The fruit of a fig tree is apple-shaped.
+MD20_02|Corn cobs can be used to kindle a fire.|Corn cobs can be used to kindle a fire.
+MD20_03|Where were they when the noise started?|Where were they when the noise started?
+MD20_04|The paper box is full of thumb tacks.|The paper box is full of thumb tacks.
+MD20_05|Sell your gift to a buyer at a good gain.|Sell your gift to a buyer at a good gain.
+MD20_06|The tongs lay beside the ice pail.|The tongs lay beside the ice pail.
+MD20_07|The petals fall with the next puff of wind.|The petals fall with the next puff of wind.
+MD20_08|Bring your best compass to the third class.|Bring your best compass to the third class.
+MD20_09|They could laugh although they were sad.|They could laugh although they were sad.
+MD20_10|Farmers came in to thresh the oat crop.|Farmers came in to thresh the oat crop.
+MD21_01|The brown house was on fire to the attic.|The brown house was on fire to the attic.
+MD21_02|The lure is used to catch trout and flounder.|The lure is used to catch trout and flounder.
+MD21_03|Float the soap on top of the bath water.|Float the soap on top of the bath water.
+MD21_04|A blue crane is a tall wading bird.|A blue crane is a tall wading bird.
+MD21_05|A fresh start will work such wonders.|A fresh start will work such wonders.
+MD21_06|The club rented the rink for the fifth night.|The club rented the rink for the fifth night.
+MD21_07|After the dance, they went straight home.|After the dance, they went straight home.
+MD21_08|The hostess taught the new maid to serve.|The hostess taught the new maid to serve.
+MD21_09|He wrote his last novel there at the inn.|He wrote his last novel there at the inn.
+MD21_10|Even the worst will beat his low score.|Even the worst will beat his low score.
+MD22_01|The cement had dried when he moved it.|The cement had dried when he moved it.
+MD22_02|The loss of the second ship was hard to take.|The loss of the second ship was hard to take.
+MD22_03|The fly made its way along the wall.|The fly made its way along the wall.
+MD22_04|Do that with a wooden stick.|Do that with a wooden stick.
+MD22_05|Live wires should be kept covered.|Live wires should be kept covered.
+MD22_06|The large house had hot water taps.|The large house had hot water taps.
+MD22_07|It is hard to erase blue or red ink.|It is hard to erase blue or red ink.
+MD22_08|Write at once or you may forget it.|Write at once or you may forget it.
+MD22_09|The doorknob was made of bright clean brass.|The doorknob was made of bright clean brass.
+MD22_10|The wreck occurred by the bank on Main Street.|The wreck occurred by the bank on Main Street.
