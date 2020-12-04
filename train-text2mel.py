@@ -64,7 +64,7 @@ optimizer = torch.optim.Adam(text2mel.parameters(), lr=hp.text2mel_lr)
 start_timestamp = int(time.time() * 1000)
 start_epoch = 0
 global_step = 0
-
+train_epoch = 0
 logger = Logger(args.dataset, 'text2mel')
 
 
@@ -191,12 +191,6 @@ while True:
         best_valid_loss = valid_epoch_loss
         print("SAVED NEW BEST MODEL")
         torch.save(text2mel.state_dict(), os.path.join('./logdir/mathias-text2mel', 'mathias-text2mel-best.pth'))
-    
-
-    if global_step % 1000 == 0:
-        # checkpoint at every 5000th step
-        save_checkpoint(logger.logdir, train_epoch, global_step, text2mel, optimizer)
-
     
     epoch += 1
     if global_step >= hp.text2mel_max_iteration:
