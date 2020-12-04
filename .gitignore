@@ -10,4 +10,4 @@ samples
 *.pth
 !pre-processing_testing.ipynb
 *.zip
-
+archive/
