@@ -6,7 +6,7 @@ import sys
 import time
 import argparse
 from tqdm import *
-
+import os
 import numpy as np
 
 import torch
@@ -47,6 +47,15 @@ valid_data_loader = Text2MelDataLoader(text2mel_dataset=SpeechDataset(['texts', 
 text2mel = Text2Mel(vocab).cuda()   
 text2mel.load_state_dict(torch.load("ljspeech-text2mel.pth").state_dict()) 
 
+if hp.frozen_layers is not None:
+    for name, child in text2mel.named_parameters():
+        if name.split('.')[0] in hp.frozen_layers:
+            child.requires_grad = False
+            print(f'FROZE {name}')
+        else:
+            child.requires_grad = True
+            print(f'NOT FROZEN {name}')
+      
 optimizer = torch.optim.Adam(text2mel.parameters(), lr=hp.text2mel_lr)
 
 start_timestamp = int(time.time() * 1000)
@@ -146,7 +155,7 @@ def train(train_epoch, phase='train'):
             })
             logger.log_step(phase, global_step, {'loss_l1': l1_loss, 'loss_att': att_loss},
                             {'mels-true': S[:1, :, :], 'mels-pred': Y[:1, :, :], 'attention': A[:1, :, :]})
-            if global_step % 5000 == 0:
+            if global_step % 1000 == 0:
                 # checkpoint at every 5000th step
                 save_checkpoint(logger.logdir, train_epoch, global_step, text2mel, optimizer)
 
@@ -161,16 +170,31 @@ def train(train_epoch, phase='train'):
 
 since = time.time()
 epoch = start_epoch
+best_valid_loss = np.inf
+valid_epoch_loss = np.inf
+
 while True:
     train_epoch_loss = train(epoch, phase='train')
     time_elapsed = time.time() - since
     time_str = 'total time elapsed: {:.0f}h {:.0f}m {:.0f}s '.format(time_elapsed // 3600, time_elapsed % 3600 // 60,
                                                                      time_elapsed % 60)
     print("train epoch loss %f, step=%d, %s" % (train_epoch_loss, global_step, time_str))
-
+    
+    old_valid_loss = valid_epoch_loss
     valid_epoch_loss = train(epoch, phase='valid')
     print("valid epoch loss %f" % valid_epoch_loss)
+    
+    if best_valid_loss > valid_epoch_loss:
+        best_valid_loss = valid_epoch_loss
+        print("SAVED NEW BEST MODEL")
+        torch.save(text2mel.state_dict(), os.path.join('./logdir/mathias-text2mel', 'mathias-text2mel-best.pth'))
+    
 
+    if global_step % 1000 == 0:
+        # checkpoint at every 5000th step
+        save_checkpoint(logger.logdir, train_epoch, global_step, text2mel, optimizer)
+
+    
     epoch += 1
     if global_step >= hp.text2mel_max_iteration:
         print("max step %d (current step %d) reached, exiting..." % (hp.text2mel_max_iteration, global_step))

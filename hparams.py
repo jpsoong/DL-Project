@@ -4,7 +4,6 @@ __author__ = 'Erdene-Ochir Tuguldur'
 
 class HParams:
     """Hyper parameters"""
-
     disable_progress_bar = False  # set True if you don't want the progress bar in the console
 
     logdir = "logdir"  # log dir where the checkpoints and tensorboard files are saved
@@ -33,9 +32,13 @@ class HParams:
     dropout_rate = 0.05  # dropout
 
     # Text2Mel network options
+    # Options are: 'text_enc', 'audio_enc', 'audio_dec'
+    frozen_layers = ['text_enc', 'audio_enc']
+#     frozen_layers = ['text_enc']
+    
     text2mel_lr = 0.005  # learning rate
     # text2mel_max_iteration = 300000  # max train step
-    text2mel_max_iteration = 60000  # max train step
+    text2mel_max_iteration = 10000  # max train step
     text2mel_weight_init = 'none'  # 'kaiming', 'xavier' or 'none'
     text2mel_normalization = 'layer'  # 'layer', 'weight' or 'none'
     text2mel_basic_block = 'gated_conv'  # 'highway', 'gated_conv' or 'residual'
@@ -47,3 +50,5 @@ class HParams:
     ssrn_weight_init = 'kaiming'  # 'kaiming', 'xavier' or 'none'
     ssrn_normalization = 'weight'  # 'layer', 'weight' or 'none'
     ssrn_basic_block = 'residual'  # 'highway', 'gated_conv' or 'residual'
+    
+    
