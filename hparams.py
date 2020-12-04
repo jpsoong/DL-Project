@@ -33,7 +33,8 @@ class HParams:
 
     # Text2Mel network options
     # Options are: 'text_enc', 'audio_enc', 'audio_dec'
-    frozen_layers = ['text_enc', 'audio_enc']
+    # frozen_layers = ['text_enc', 'audio_enc']
+    frozen_layers = None
 #     frozen_layers = ['text_enc']
     
     text2mel_lr = 0.005  # learning rate
