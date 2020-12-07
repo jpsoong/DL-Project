@@ -1,0 +1,48 @@
+021-0000|Image features, regression, and work our way towards classification|Image features, regression, and work our way towards classification
+021-0001|In language, and speech processing, and beyond|In language, and speech processing, and beyond
+021-0002|Similar to the brain, artificial neural networks exploit something that we call connectionism|Similar to the brain, artificial neural networks exploit something that we call connectionism
+021-0003|Image samples with very high quality|Image samples with very high quality
+021-0004|When we talk about supervised learning, usually what we mean is that we try to find|When we talk about supervised learning, usually what we mean is that we try to find
+021-0005|Supervised learning, particularly in manual annotation becomes|Supervised learning, particularly in manual annotation becomes
+021-0006|And then we move on to talk about logistic regression|And then we move on to talk about logistic regression
+021-0007|So, let's start with talking about the problem statement|So, let's start with talking about the problem statement
+021-0008|What the object is, what class the object belongs to, but also we want to know where in the image it is located and usually this being done by providing a bounding box of the object|What the object is, what class the object belongs to, but also we want to know where in the image it is located and usually this being done by providing a bounding box of the object
+021-0009|And for every single one of the object, we want to retrieve the bounding box and the corresponding class label.|And for every single one of the object, we want to retrieve the bounding box and the corresponding class label.
+021-0010|by an integer or a floating point number that describes the intensity that is being displayed at that specific location|by an integer or a floating point number that describes the intensity that is being displayed at that specific location
+021-0011|red green and blue, and we store that|red green and blue, and we store that
+021-0012|To um x-ray, which analysis we will see that suddenly the image sizes go up|To um x-ray, which analysis we will see that suddenly the image sizes go up
+021-0013|It's only a grayscale image. At the same time, because as you may know attenuation|It's only a grayscale image. At the same time, because as you may know attenuation
+021-0014|represent images for computer analysis|represent images for computer analysis
+021-0015|as the viewpoint for example on this cat on my cat changes|as the viewpoint for example on this cat on my cat changes
+021-0016|as lighting conditions change every single one of this pixel|as lighting conditions change every single one of this pixel
+021-0017|not only the viewpoint affects the magnitude of the pixel intensity values, not only the lighting affects this, but also the formation|not only the viewpoint affects the magnitude of the pixel intensity values, not only the lighting affects this, but also the formation
+021-0018|not only lighting, not only the formation, but also occlusion|not only lighting, not only the formation, but also occlusion
+023-0000|in that case, we had this neat interpretation that we get pixel level template images for every single one of our class but|in that case, we had this neat interpretation that we get pixel level template images for every single one of our class but
+023-0001|the assumptions that we made and the challenges that came with that outweighed the benefits|the assumptions that we made and the challenges that came with that outweighed the benefits
+023-0002|this notation of a template|this notation of a template
+023-0003|on a feature extraction space|on a feature extraction space
+023-0004|rather than operating directly on the images|rather than operating directly on the images
+023-0005|of robustness and invariance with respect to all these potential sources|of robustness and invariance with respect to all these potential sources
+023-0006|where we discretize the color space|where we discretize the color space
+023-0007|into a certain number of histogram bins and then loop over our input image and decide|into a certain number of histogram bins and then loop over our input image and decide
+023-0008|change as image content is repositioned|change as image content is repositioned
+023-0009|We cluster them into similar looking patches and aggregate|We cluster them into similar looking patches and aggregate
+023-0010|a codebook or a dictionary of visual words that you can understand again as|a codebook or a dictionary of visual words that you can understand again as
+023-0011|we loop over our images and encode them|we loop over our images and encode them
+023-0012|what you may have noticed for all these examples is that there are certain design choices that we also call hyper parameters|what you may have noticed for all these examples is that there are certain design choices that we also call hyper parameters
+023-0013|proper feature engineering used to be the major|proper feature engineering used to be the major
+023-0014|bottleneck in achieving great performance|bottleneck in achieving great performance
+023-0015|so what we saw is that now what we have is this pipeline here that now consists of two steps.|so what we saw is that now what we have is this pipeline here that now consists of two steps.
+023-0016|a feature extractor that computes a higher level representation|a feature extractor that computes a higher level representation
+200-0000|from a high level point of view, which really just a fancy look up table that allows us to solve a couple of problems|from a high level point of view, which really just a fancy look up table that allows us to solve a couple of problems
+200-0001|in a more elegant way.|in a more elegant way.
+200-0002|for example something like a one hot|for example something like a one hot
+200-0003|to way continues vector space and we will see in a little bit that|to way continues vector space and we will see in a little bit that
+200-0004|if we do it just right with a couple of nice and appealing properties that will allow us to solve problems in a much more effective way|if we do it just right with a couple of nice and appealing properties that will allow us to solve problems in a much more effective way
+200-0005|a large word corpus|a large word corpus
+200-0006|the cat sat on the mat|the cat sat on the mat
+200-0007|as my second language and then I|as my second language and then I
+200-0008|semantically are not going to be that large and this is a very appealing property to have|semantically are not going to be that large and this is a very appealing property to have
+200-0009|If you wanted now to use something like this for a book rec uh recommendation system you can see that books that seem to be similar in context|If you wanted now to use something like this for a book rec uh recommendation system you can see that books that seem to be similar in context
+200-0010|context represented represented by how they link to certain entities on wikipedia|context represented represented by how they link to certain entities on wikipedia
+200-0011|some other book your your user queried right? And this is a very interesting property.|some other book your your user queried right? And this is a very interesting property.

@@ -1,0 +1,72 @@
+010-0001|Welcome back to our first real lecture in this course, in deep learning,|Welcome back to our first real lecture in this course, in deep learning,
+010-0002|Today, I will provide a broad overview of the deep learning landscape.|Today, I will provide a broad overview of the deep learning landscape.
+010-0003|The course is titled deep learning but alternative titles for the course could have been.|The course is titled deep learning but alternative titles for the course could have been.
+010-0004|How ay eye is revolutionizing the field of your interest?|How ay eye is revolutionizing the field of your interest?
+010-0005|Or from a slightly more cynical perspective we probably could have called the course.|Or from a slightly more cynical perspective we probably could have called the course.
+010-0006|First I would like to talk a bit about brain stuff.|First I would like to talk a bit about brain stuff.
+010-0007|So you could wonder why should we talk about the brain when we talk about deep learning?|So you could wonder why should we talk about the brain when we talk about deep learning?
+010-0008|These terms somehow imply connections to true networks as we have them in in our brain.|These terms somehow imply connections to true networks as we have them in in our brain.
+010-0009|We have a signal that enters through the dendrites in to the soma of a neuron.|We have a signal that enters through the dendrites in to the soma of a neuron.
+010-0010|And then if the signal exceeds a certain threshold.|And then if the signal exceeds a certain threshold.
+010-0011|I think it does.|I think it does.
+010-0012|And then if the signal surpasses a certain threshold.|And then if the signal surpasses a certain threshold.
+010-0013|And our brain is very quick in operation.|And our brain is very quick in operation.
+010-0014|are similar to the biological neurons that our brain consists of|are similar to the biological neurons that our brain consists of
+010-0015|It has a large scale and is very complex.|It has a large scale and is very complex.
+010-0016|Are bound together in the longer term|Are bound together in the longer term
+010-0017|give us a unified experience of the visual world|give us a unified experience of the visual world
+010-0018|And I am sure that you will realize that after this course particularly.|And I am sure that you will realize that after this course particularly.
+010-0019|Furthermore, the size difference is quite stunning.|Furthermore, the size difference is quite stunning.
+010-0020|And when we look at the biggest architectures right now.|And when we look at the biggest architectures right now.
+010-0021|But still it conveys the picture quite clearly.|But still it conveys the picture quite clearly.
+010-0022|So the artificial neural networks that we talk about right now|So the artificial neural networks that we talked about right now
+010-0023|Further the connections per neuron are much below the connections that you would find|Further the connections per neuron are much below the connections that you would find
+010-0024|information travels across these connections|information travels across these connections
+010-0025|All the information is stored in the connections.|All the information is stored in the connections.
+010-0026|This will be important and we will get back to this later.|This will be important and we will get back to this later.
+010-0027|so now we have talked a little bit about|so now we have talked a little bit about
+010-0028|Why is there this large hype around neural networks?|Why is there this large hype around neural networks?
+010-0029|And the hype is real.|And the hype is real.
+010-0030|The growth between two thousand and fourteen and two thousand and sixteen is immense.|The growth between two thousand and fourteen and two thousand and sixteen is immense.
+010-0031|When we look at the conference growth and plain number of papers|When we look at the conference growth and plain number of papers
+010-0032|And one of the major conferences in the field.|And one of the major conferences in the field.
+010-0033|With substantially more papers being submitted every year.|With substantially more papers being submitted every year.
+010-0034|I mean you need to understand this is an academic conference.|I mean you need to understand this is an academic conference
+010-0035|Where I come from and when I was young the only thing that was sold out in that amount of time|Where I come from and when I was young the only thing that was sold out in that amount of time
+010-0036|There is a statement that says this|There is a statement that says this
+010-0037|to walk, talk, see, write, reproduce itself|to walk, talk, see, write, reproduce itself
+010-0038|And be conscious of its existence.|And be conscious of its existence.
+010-0039|This statement is not at all new.|This statement is not at all new.
+010-0040|This statement is in fact quite old and was issued|This statement is in fact quite old and was issued
+010-0041|after the invention of the perceptron.|after the invention of the perceptron.
+010-0042|so you need to understand that neural networks|so you need to understand that neural networks
+010-0043|have a history of being the next big thing|have a history of being the next big thing
+010-0044|This is not the first area where we experience this type of hype and explosive growth of this research direction.|This is not the first area where we experience this type of hype and explosive growth of this research direction.
+010-0045|When we discovered that the perceptron that we just heard about.|When we discovered that the perceptron that we just heard about.
+010-0046|After we found a solution to that problem.|After we found a solution to that problem.
+010-0047|Training these artificial neural networks on large data is quite complicated and resource intensive.|Training these artificial neural networks on large data is quite complicated and resource intensive.
+010-0048|Right now because of these advances in compute hardware.|Right now because of these advances in compute hardware.
+010-0049|We are seeing again another growth and more interest in this area.|We are seeing again another growth and more interest in this area.
+010-0050|If a typical person can do a mental task with less than one second of thought.|If a typical person can do a mental task with less than one second of thought.
+010-0051|Either now or in the near future.|Either now or in the near future.
+010-0052|And it is true. Neural networks have been taking over.|And it is true. Neural networks have been taking over.
+010-0053|In fact, neural networks have redefined the state of the art in many problems.|In fact, neural networks have redefined the state of the art in many problems.
+010-0054|I think it will be useful for us to look at a couple of examples to understand|I think it will be useful for us to look at a couple of examples to understand
+010-0055|What type of problems you will be able to address once you have successfully taken this course.|What type of problems you will be able to address once you have successfully taken this course.
+010-0056|So this clearly demonstrates the need for very sophisticated speech and language processing.|So this clearly demonstrates the need for very sophisticated speech and language processing.
+010-0057|Again, most of you probably have one of these smart home device.|Again, most of you probably have one of these smart home device.
+010-0058|People will resort to alternative methods simply because time pressure and frustration.|People will resort to alternative methods simply because time pressure and frustration.
+010-0059|What you can see in the plot that I'm showing on this slide is that|What you can see in the plot that I'm showing on this slide is that
+010-0060|So what do you think the error rate was?|So what do you think the error rate was?
+010-0061|That you could argue makes a system unusable.|That you could argue makes a system unusable.
+010-0062|Another problem that has seen a lot of interest is image classification.|Another problem that has seen a lot of interest is image classification.
+010-0063|We will talk about that in this course.|We will talk about that in this course.
+010-0064|Another problem that is interesting is classification and localization.|Another problem that is interesting is classification and localization.
+010-0065|But we can extend these concepts to multiple objects.|But we can extend these concepts to multiple objects.
+010-0066|The topic that we will be talking about at the very end of our class.|The topic that we will be talking about at the very end of our class.
+010-0067|So what you get to appreciate here is that even in very crowded scenes like this street scene.|So what you get to appreciate here is that even in very crowded scenes like this street scene.
+010-0068|And try to derive by tracking every person that is walking around there.|And try to derive by tracking every person that is walking around there.
+010-0069|So far we have talked about discrimination, telling one class apart from the other.|So far we have talked about discrimination, telling one class apart from the other.
+010-0070|The general idea of adversarial training is that|The general idea of adversarial training is that
+010-0071|whether the image has been generated by our generator from a random noise input|whether the image has been generated by our generator from a random noise input
+010-0072|really results in very very good performance|really results in very very good performance
